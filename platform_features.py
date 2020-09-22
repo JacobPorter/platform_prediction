@@ -98,7 +98,8 @@ def main():
     """Parse the arguments."""
     tick = datetime.datetime.now()
     parser = argparse.ArgumentParser(
-        formatter_class=argparse.RawTextHelpFormatter, description=__doc__)
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        description=__doc__)
     parser.add_argument("fastq_input",
                         type=str,
                         help=('The input fastq file.'))
