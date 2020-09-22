@@ -101,16 +101,15 @@ def main():
         formatter_class=argparse.RawTextHelpFormatter, description=__doc__)
     parser.add_argument("fastq_input",
                         type=str,
-                        help=('The input fasta file.'))
+                        help=('The input fastq file.'))
+    parser.add_argument("label",
+                        type=str,
+                        help=("The string to label the rows."))
     parser.add_argument("--subportions",
                         "-s",
                         type=int,
                         help=('The number of subportions to divide into.'),
                         default=3)
-    parser.add_argument("--label",
-                        "-l",
-                        type=str,
-                        help=("The string to label the rows."))
     args = parser.parse_args()
     print("Extracting features...", file=sys.stderr)
     print(args, file=sys.stderr)
