@@ -65,15 +65,33 @@ def get_offset(qual):
         return 33
 
 
-def get_features(fastq_input, k_length):
-    reader = SeqReader(fastq_input, file_type='fastq')
-    for record in reader:
-        header, read, mid, qual = record
-        len_read = len(read)
-        offset = get_offset(qual)
+def get_features(fastq_input, label, subportions=3):
+    def get_qual_features(qual_ascii):
         seq_qual_prob = map(
-            lambda x: transformPhredCharToProb(x, offset=offset), qual)
-        first_qual_features = quality_features(seq_qual_prob)
+            lambda x: transformPhredCharToProb(x, offset=offset), qual_ascii)
+        return quality_features(seq_qual_prob)
+
+    reader = SeqReader(fastq_input, file_type='fastq')
+    count = 0
+    for record in reader:
+        count += 1
+        features = []
+        header, read, _, qual = record
+        offset = get_offset(qual)
+        features += get_qual_features(qual)
+        totallength = len(read) / subportions
+        halflength = totallength / 2
+        for i in range(subportions + subportions - 1):
+            if i == subportions + subportions - 2:
+                finallength = len(read)
+            else:
+                finallength = i * halflength + totallength
+            features += get_qual_features(qual[i * halflength:finallength])
+            print("{}, {}".format(i * halflength, finallength),
+                  file=sys.stderr)
+        features.append(label)
+        print(features, file=sys.stdout)
+    return count
 
 
 def main():
@@ -84,14 +102,21 @@ def main():
     parser.add_argument("fastq_input",
                         type=str,
                         help=('The input fasta file.'))
-    parser.add_argument("--k_length",
-                        "-k",
+    parser.add_argument("--subportions",
+                        "-s",
                         type=int,
-                        help=('The length of the kmer.'),
+                        help=('The number of subportions to divide into.'),
                         default=3)
+    parser.add_argument("--label",
+                        "-l",
+                        type=str,
+                        help=("The string to label the rows."))
     args = parser.parse_args()
-    count = get_features(args.fastq_input, args.k_length)
+    print("Extracting features...", file=sys.stderr)
+    print(args, file=sys.stderr)
+    count = get_features(args.fastq_input, args.label, args.subportions)
     tock = datetime.datetime.now()
+    print("There were {} records processed.".format(count), file=sys.stderr)
     print("The process took time: {}".format(tock - tick), file=sys.stderr)
 
 
