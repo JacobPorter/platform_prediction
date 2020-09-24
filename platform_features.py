@@ -99,16 +99,20 @@ def get_features(fastq_input, label, subportions=3, header=False):
     count = 0
     if header:
         sys.stdout.write("\t".join(HEADER))
+        if subportions > 1:
+            sys.stdout.write("\t")
         for i in range(subportions + subportions - 1):
             for item in HEADER:
                 sys.stdout.write(item + "_" + str(i + 1) + "\t")
         sys.stdout.write("label")
         sys.stdout.write("\n")
     for record in reader:
-        count += 1
         features = []
         header, read, qual, _ = record
         # print(read, qual, file=sys.stderr)
+        if len(qual) == 0:
+            continue
+        count += 1
         offset = get_offset(qual)
         print("{} Qual len:{} Offset: {}".format(count, len(qual), offset),
               file=sys.stderr)
