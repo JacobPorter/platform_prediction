@@ -122,7 +122,6 @@ def get_features(fastq_input,
     for record in reader:
         features = []
         header, read, qual, _ = record
-        print(read, qual, file=sys.stderr)
         if len(qual) == 0:
             continue
         count += 1
