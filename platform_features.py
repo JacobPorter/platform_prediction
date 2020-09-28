@@ -185,6 +185,7 @@ def main():
                         default=False)
     args = parser.parse_args()
     print("Extracting features...", file=sys.stderr)
+    print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
     DEBUG = args.debug
     count = get_features(args.fastq_input, args.label, args.subportions,
