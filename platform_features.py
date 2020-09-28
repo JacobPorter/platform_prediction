@@ -129,7 +129,7 @@ def get_features(fastq_input,
         if DEBUG:
             print("{} Qual len:{} Offset: {}".format(count, len(qual), offset),
                   file=sys.stderr)
-        features += get_qual_features(qual)
+        features += get_qual_features(qual, reduced=reduced)
         totallength = int(len(read) / subportions)
         halflength = int(totallength / 2)
         for i in range(subportions + subportions - 1):
