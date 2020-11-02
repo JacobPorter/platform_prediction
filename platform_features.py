@@ -23,21 +23,14 @@ HEADER = [
     "interval_diff"
 ]
 
-# Set to true to produce extra print outs to stderr
-DEBUG = False
 
-
-def transformPhredCharToProb(c, offset=33):
-    """
-    Transform a quality character into a probability.
-    """
+def transform_phred_to_prob(c, offset=33):
+    """Transform a quality character into a probability."""
     return 10**((ord(c) - offset) / (-10.0))
 
 
 def quality_features(vector, reduced=False):
-    """
-    Extract features from a probability vector.
-    """
+    """Extract features from a probability vector."""
     # sys.stderr.write(" ".join(map(str, vector)) + "\n")
     mean = float(sum(vector)) / len(vector)
     my_max = max(vector)
@@ -74,9 +67,7 @@ def quality_features(vector, reduced=False):
 
 
 def get_offset(qual):
-    """
-    Get the quality offset from the quality character string.
-    """
+    """Get the quality offset from the quality character string."""
     qual_counter = Counter(qual)
     count_list = [qual_counter[char] for char in QUAL_STR]
     offset_33 = sum(count_list[0:25])
@@ -86,21 +77,20 @@ def get_offset(qual):
         return 64
     elif offset_33 == 0:
         return 64
-    else:
-        return 33
+    return 33
 
 
 def get_features(fastq_input,
                  label,
                  subportions=3,
                  header=False,
-                 reduced=False):
-    """
-    Get the features from all sequences in the file.  Print them to stdout.
-    """
+                 reduced=False,
+                 output=sys.stdout,
+                 debug=False):
+    """Get the features from all sequences in the file. Print them."""
     def get_qual_features(qual_ascii, reduced=False):
         seq_qual_prob = list(
-            map(lambda x: transformPhredCharToProb(x, offset=offset),
+            map(lambda x: transform_phred_to_prob(x, offset=offset),
                 qual_ascii))
         return quality_features(seq_qual_prob, reduced=reduced)
 
@@ -111,14 +101,15 @@ def get_features(fastq_input,
             my_header = HEADER[0:4]
         else:
             my_header = HEADER
-        sys.stdout.write("\t".join(my_header))
+        output.write("\t".join(my_header))
         if subportions > 1:
-            sys.stdout.write("\t")
+            output.write("\t")
         for i in range(subportions + subportions - 1):
             for item in my_header:
-                sys.stdout.write(item + "_" + str(i + 1) + "\t")
-        sys.stdout.write("label")
-        sys.stdout.write("\n")
+                output.write(item + "_" + str(i + 1) + "\t")
+        if label:
+            output.write("label")
+            output.write("\n")
     for record in reader:
         features = []
         header, read, qual, _ = record
@@ -126,7 +117,7 @@ def get_features(fastq_input,
             continue
         count += 1
         offset = get_offset(qual)
-        if DEBUG:
+        if debug:
             print("{} Qual len:{} Offset: {}".format(count, len(qual), offset),
                   file=sys.stderr)
         features += get_qual_features(qual, reduced=reduced)
@@ -137,7 +128,7 @@ def get_features(fastq_input,
                 finallength = len(read)
             else:
                 finallength = i * halflength + totallength
-            if DEBUG:
+            if debug:
                 sys.stderr.write(
                     "{} Read len:{} Offset: {} Begin: {}, End: {} {} \n".
                     format(count, len(read), offset, i * halflength,
@@ -145,13 +136,13 @@ def get_features(fastq_input,
                 sys.stderr.flush()
             features += get_qual_features(qual[i * halflength:finallength],
                                           reduced)
-        features.append(label)
-        print("\t".join(map(str, features)), file=sys.stdout)
+        if label:
+            features.append(label)
+        print("\t".join(map(str, features)), file=output)
     return count
 
 
 def main():
-    global DEBUG
     """Parse the arguments."""
     tick = datetime.datetime.now()
     parser = argparse.ArgumentParser(
@@ -179,6 +170,12 @@ def main():
                         action="store_true",
                         help=("Reduce the number of features."),
                         default=False)
+    parser.add_argument(
+        "--output",
+        "-o",
+        type=str,
+        help=("The location of the file to write the output to."),
+        default="stdout")
     parser.add_argument("--debug",
                         action="store_true",
                         help=("Print more info to stderr."),
@@ -187,9 +184,17 @@ def main():
     print("Extracting features...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
-    DEBUG = args.debug
-    count = get_features(args.fastq_input, args.label, args.subportions,
-                         args.header, args.reduced)
+    if args.output == "stdout":
+        output = sys.stdout
+    else:
+        output = open(args.output, "w")
+    count = get_features(args.fastq_input,
+                         args.label,
+                         args.subportions,
+                         header=args.header,
+                         reduced=args.reduced,
+                         output=output,
+                         debug=args.debug)
     tock = datetime.datetime.now()
     print("There were {} records processed.".format(count), file=sys.stderr)
     print("The process took time: {}".format(tock - tick), file=sys.stderr)
