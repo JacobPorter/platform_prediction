@@ -1,3 +1,6 @@
-[submodule "SeqIterator"]
-	path = SeqIterator
+[submodule "lib/Simple_Estimator"]
+	path = lib/Simple_Estimator
+	url = https://github.com/JacobPorter/Simple_Estimator.git
+[submodule "lib/SeqIterator"]
+	path = lib/SeqIterator
 	url = https://github.com/JacobPorter/SeqIterator.git

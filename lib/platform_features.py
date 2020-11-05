@@ -81,10 +81,11 @@ def get_offset(qual):
 
 
 def get_features(fastq_input,
-                 label,
+                 label=None,
                  subportions=3,
+                 positions=(None, None),
                  header=False,
-                 reduced=False,
+                 reduced=True,
                  output=sys.stdout,
                  debug=False):
     """Get the features from all sequences in the file. Print them."""
@@ -95,6 +96,8 @@ def get_features(fastq_input,
         return quality_features(seq_qual_prob, reduced=reduced)
 
     reader = SeqReader(fastq_input, file_type='fastq')
+    position = 0
+    x, y = positions[0], positions[1]
     count = 0
     if header:
         if reduced:
@@ -113,7 +116,8 @@ def get_features(fastq_input,
     for record in reader:
         features = []
         header, read, qual, _ = record
-        if len(qual) == 0:
+        position += 1
+        if len(qual) == 0 or (x and (position < x or position > y)):
             continue
         count += 1
         offset = get_offset(qual)
@@ -148,9 +152,7 @@ def main():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         description=__doc__)
-    parser.add_argument("fastq_input",
-                        type=str,
-                        help=('The input fastq file.'))
+    parser.add_argument("fastq_input", type=str, help=('An input fastq file.'))
     parser.add_argument("label",
                         type=str,
                         help=("The string to label the rows."))
@@ -159,6 +161,14 @@ def main():
                         type=int,
                         help=('The number of subportions to divide into.'),
                         default=3)
+    parser.add_argument(
+        "--range",
+        "-r",
+        nargs=2,
+        type=int,
+        help=('The range of reads to sample.  '
+              'To process the whole file, do not include an argument.'),
+        default=(None, None))
     parser.add_argument(
         "--header",
         "-d",
@@ -191,6 +201,7 @@ def main():
     count = get_features(args.fastq_input,
                          args.label,
                          args.subportions,
+                         positions=args.range,
                          header=args.header,
                          reduced=args.reduced,
                          output=output,
