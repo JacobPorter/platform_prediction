@@ -9,7 +9,7 @@ import argparse
 import datetime
 import sys
 
-import numpy as np
+from numpy import asarray
 
 from lib.platform_features import get_features
 from lib.Simple_Estimator.simple_estimator import load_model, predict
@@ -51,7 +51,7 @@ def predict_platform(fastq_input, positions=(1, 1000), model_path=MODEL_PATH):
                                          label=None,
                                          positions=positions,
                                          output=None)
-    features = np.asarray(features)
+    features = asarray(features)
     model, encoder, name = load_model(model_path)
     responses, proba, order = predict(model, name, features, encoder)
     responses = responses.tolist()
@@ -67,7 +67,7 @@ def predict_platform(fastq_input, positions=(1, 1000), model_path=MODEL_PATH):
     for item in preds:
         prob_2 += item[1][order_p]
     prob_2 /= len(preds)
-    return platform, prob_1, prob_2, count
+    return fastq_input, platform, prob_1, prob_2, count
 
 
 def nonnegative(value):
@@ -89,7 +89,10 @@ def main():
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
         description=__doc__)
-    parser.add_argument("fastq_input", type=str, help=('An input fastq file.'))
+    parser.add_argument("fastq_input",
+                        type=str,
+                        nargs='+',
+                        help=('An input fastq file.'))
     parser.add_argument(
         "--range",
         "-r",
@@ -107,8 +110,9 @@ def main():
     print("Predicting platform...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
-    print("\t".join(
-        map(str, predict_platform(args.fastq_input, args.range, args.model))))
+    for fastq_file in args.fastq_input:
+        print("\t".join(
+            map(str, predict_platform(fastq_file, args.range, args.model))))
     tock = datetime.datetime.now()
     print("The process took time: {}".format(tock - tick), file=sys.stderr)
 
