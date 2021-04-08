@@ -110,6 +110,7 @@ def main():
     print("Predicting platform...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
+    print("\t".join(("File", "Platform", "Maj. Vote", "Avg. Prob.", "Reads")))
     for fastq_file in args.fastq_input:
         print("\t".join(
             map(str, predict_platform(fastq_file, args.range, args.model))))
