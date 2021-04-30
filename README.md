@@ -2,7 +2,7 @@
 Predict sequencing platform.
 The models may need to be un-gzipped to be used.
 Requirements in platform_environment.yml. (scikit-learn, scipy, etc.)
-The specific version of scikit-learn may be required to use the models since scikit-learn may not be backwards compatible.
+The specific version of scikit-learn may be required to use the models since scikit-learn models may not be backwards compatible.
 
 To create the predict_platform executable run make in the directory of this program. This file can be copied to another location.
 
