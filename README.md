@@ -6,5 +6,5 @@ The specific version of scikit-learn may be required to use the models since sci
 
 To create an executeable run make in the directory of this program.
 
-Jacob Porter, PhD
-https://www.jacobporter.com
+Jacob S. Porter, PhD
+https://github.com/JacobPorter/
