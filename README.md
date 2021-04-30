@@ -6,5 +6,8 @@ The specific version of scikit-learn may be required to use the models since sci
 
 To create an executeable run make in the directory of this program.
 
+Test case:
+./predict_platform ./test/SRR8776902.5k.nanopore.fastq.gz ./test/SRR12594727.5k.illumina.fastq.gz
+
 Jacob S. Porter, PhD
 https://github.com/JacobPorter/
