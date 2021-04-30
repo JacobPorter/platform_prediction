@@ -8,6 +8,7 @@ Predicts the sequencing platform for a fastq file.
 import argparse
 import datetime
 import os
+import statistics
 import sys
 
 from numpy import asarray
@@ -65,10 +66,12 @@ def predict_platform(fastq_input, positions=(1, 1000), model_path=MODEL_PATH):
     preds = list(filter(lambda x: x[0] == platform, zip(responses, proba)))
     prob_1 = len(preds) / len(responses)
     prob_2 = 0.0
+    stdev = []
     for item in preds:
         prob_2 += item[1][order_p]
+        stdev.append(item[1][order_p])
     prob_2 /= len(preds)
-    return fastq_input, platform, prob_1, prob_2, count
+    return fastq_input, platform, prob_1, prob_2, statistics.stdev(stdev), count
 
 
 def nonnegative(value):
@@ -115,6 +118,11 @@ def main():
     print("Predicting platform...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
+    print(
+        "\t".join(
+            ("File", "Platform", "Maj. Vote", "Avg. Prob.", "Stdev Prob.", "Reads")
+        )
+    )
     for fastq_file in args.fastq_input:
         print("\t".join(map(str, predict_platform(fastq_file, args.range, args.model))))
     tock = datetime.datetime.now()
