@@ -1,0 +1,374 @@
+srun: job 16097540 queued and waiting for resources
+srun: job 16097540 has been allocated resources
+Namespace(estimator='DecisionTreeClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/DecisionTreeClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Namespace(estimator='DecisionTreeClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/DecisionTreeClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774, score=0.918, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11, score=0.996, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377, score=0.979, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148, score=0.918, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11, score=0.997, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08, score=0.995, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10, score=0.952, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06, score=0.934, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952, score=0.995, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832, score=0.996, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.401, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.989, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.202, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0, score=0.202, total=   0.0s[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774, score=0.923, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11, score=0.996, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377, score=0.982, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148, score=0.959, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11, score=0.998, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08, score=0.994, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10, score=0.954, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06, score=0.803, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952, score=0.993, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.401, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.988, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.202, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0, score=0.201, total=   0.0s[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774, score=0.922, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11, score=0.995, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377, score=0.940, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148, score=0.952, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11, score=0.996, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10, score=0.948, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10, score=0.994, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06, score=0.896, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952, score=0.995, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832, score=0.996, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.402, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.988, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.202, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0, score=0.398, total=   0.1s[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.6732638338171592, decisiontreeclassifier__min_samples_leaf=0.09036801139430947, decisiontreeclassifier__min_samples_split=0.0001307006307575774, score=0.916, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.22665460071822352, decisiontreeclassifier__min_samples_leaf=2.8218106852095505e-11, decisiontreeclassifier__min_samples_split=1.106059445348461e-11, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.16367791177449056, decisiontreeclassifier__min_samples_leaf=8.156526170946115e-05, decisiontreeclassifier__min_samples_split=0.18000718704971377, score=0.964, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=0.03068485468023804, decisiontreeclassifier__min_samples_leaf=7.580044752032699e-07, decisiontreeclassifier__min_samples_split=0.09644027017325148, score=0.943, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.4673847410916989, decisiontreeclassifier__min_samples_leaf=1.668084875730346e-06, decisiontreeclassifier__min_samples_split=1.22171935348608e-11, score=0.997, total=   0.2s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=0.25170630557012896, decisiontreeclassifier__min_samples_leaf=9.982946640005481e-10, decisiontreeclassifier__min_samples_split=3.443845379897808e-08, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.8955674966357093, decisiontreeclassifier__min_samples_leaf=3.0506280482226847e-06, decisiontreeclassifier__min_samples_split=7.938881454270885e-10, score=0.937, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.16692809174048837, decisiontreeclassifier__min_samples_leaf=3.103579805247372e-12, decisiontreeclassifier__min_samples_split=1.4090421717259087e-10, score=0.995, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=4, decisiontreeclassifier__max_features=0.004758521919535484, decisiontreeclassifier__min_samples_leaf=5.2128028514490726e-11, decisiontreeclassifier__min_samples_split=5.5068969455053636e-06, score=0.872, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=0.9750336481894161, decisiontreeclassifier__min_samples_leaf=0.0011039772683574575, decisiontreeclassifier__min_samples_split=0.004301569704673952, score=0.995, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=0.5803481574262626, decisiontreeclassifier__min_samples_leaf=5.25336344753674e-07, decisiontreeclassifier__min_samples_split=0.0002372438362366832, score=0.997, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.401, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.931128397286335e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.984, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.201, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0 
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.9s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.9s remaining:    2.9s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.9s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.9s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0657s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0453s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0425s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1569s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.2s remaining:    0.2s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0669s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0891s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0947s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0322s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.4s remaining:    0.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1280s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.2s remaining:    0.2s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1896s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.2s remaining:    0.2s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1019s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0580s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0678s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.4s remaining:    0.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.4s remaining:    0.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0575s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0590s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.3s remaining:    0.3s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.3s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.2s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1874s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.2s remaining:    0.2s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0466s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.3s remaining:    0.3s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.4s remaining:    0.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.4s remaining:    0.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.4s finished
+The best score: 0.9975
+The best parameters: OrderedDict([('decisiontreeclassifier__criterion', 'entropy'), ('decisiontreeclassifier__max_depth', 19), ('decisiontreeclassifier__max_features', 1.0), ('decisiontreeclassifier__min_samples_leaf', 2.1739656337835898e-06), ('decisiontreeclassifier__min_samples_split', 2.0000000000000004e-12)])
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.0, score=0.398, total=   0.1sFitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+The process took time: 0:00:23.332081
+
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.997, total=   0.4s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12, score=0.997, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05, score=0.398, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11, score=0.782, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11, score=0.946, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232, score=0.957, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394, score=0.741, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115, score=0.980, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05, score=0.988, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10, score=0.996, total=   0.4s
+
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.999, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12, score=0.998, total=   0.4s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05, score=0.201, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11, score=0.648, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11, score=0.945, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232, score=0.968, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394, score=0.647, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115, score=0.981, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05, score=0.986, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10, score=0.998, total=   0.4s
+
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.996, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12, score=0.996, total=   0.4s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05, score=0.398, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11, score=0.710, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11, score=0.953, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232, score=0.965, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394, score=0.727, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115, score=0.978, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05, score=0.989, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10, score=0.998, total=   0.4s
+
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.1739656337835898e-06, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.998, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.0004566622393770211, decisiontreeclassifier__min_samples_split=2.503072789649871e-12, score=0.997, total=   0.4s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.4888839694226677e-05, score=0.202, total=   0.0s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=3.945162101794437e-12, decisiontreeclassifier__min_samples_split=9.022915109689228e-11, score=0.759, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=3, decisiontreeclassifier__max_features=0.9918655562471105, decisiontreeclassifier__min_samples_leaf=0.0006089594782218373, decisiontreeclassifier__min_samples_split=1.3361793853830085e-11, score=0.951, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.48519068708458457, decisiontreeclassifier__min_samples_leaf=0.018115166992463107, decisiontreeclassifier__min_samples_split=0.019406196219941232, score=0.981, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=10, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.000881771844106463, decisiontreeclassifier__min_samples_split=0.35306303772282394, score=0.655, total=   0.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=21, decisiontreeclassifier__max_features=0.9508456472347374, decisiontreeclassifier__min_samples_leaf=0.0001720923094987376, decisiontreeclassifier__min_samples_split=0.1286286224154115, score=0.979, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.9124415607373019, decisiontreeclassifier__min_samples_leaf=0.003521701463067647, decisiontreeclassifier__min_samples_split=6.25009916263941e-05, score=0.990, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=20, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=4.146375672221296e-05, decisiontreeclassifier__min_samples_split=1.259975682121838e-10, score=0.999, total=   0.4s

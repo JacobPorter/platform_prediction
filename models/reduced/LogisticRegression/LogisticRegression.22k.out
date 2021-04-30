@@ -1,0 +1,551 @@
+srun: job 16097542 queued and waiting for resources
+srun: job 16097542 has been allocated resources
+Namespace(estimator='LogisticRegression', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/LogisticRegression/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Namespace(estimator='LogisticRegression', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/LogisticRegression/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    6.8s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    6.8s remaining:    6.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    7.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    7.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.5s remaining:    2.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.6s remaining:    2.6s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.8s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.8s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.4s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.5s remaining:    2.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.6s remaining:    1.6s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.3s remaining:    0.3s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.3s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.6s remaining:    2.6s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.6s remaining:    2.6s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    2.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    2.6s remaining:    2.6s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.7s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    2.7s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.5s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+The best score: 0.8470909090909091
+The best parameters: OrderedDict([('logisticregression__C', 0.9556205319347756), ('logisticregression__multi_class', 'multinomial')])
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+The process took time: 0:00:59.843996
+[CV] logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr, score=0.832, total=   2.7s
+[CV] logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial, score=0.844, total=   1.4s
+[CV] logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial, score=0.850, total=   1.4s
+[CV] logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr, score=0.825, total=   2.5s
+[CV] logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial, score=0.839, total=   1.4s
+[CV] logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial, score=0.851, total=   1.4s
+[CV] logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr, score=0.832, total=   2.5s
+[CV] logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial, score=0.851, total=   1.4s
+[CV] logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr, score=0.825, total=   2.5s
+[CV] logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial, score=0.843, total=   1.6s
+[CV] logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial, score=0.852, total=   1.4s
+[CV] logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial, score=0.708, total=   0.3s
+[CV] logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr, score=0.831, total=   2.6s
+[CV] logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial, score=0.847, total=   1.5s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=ovr ..
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=ovr, score=0.826, total=   2.6s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=multinomial, score=0.845, total=   1.4s
+[CV] logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr, score=0.829, total=   2.5s
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[CV] logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial, score=0.850, total=   1.5s
+[CV] logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr, score=0.826, total=   2.9s
+[CV] logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial, score=0.845, total=   1.4s
+[CV] logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial, score=0.843, total=   1.4s
+[CV] logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr, score=0.830, total=   2.5s
+[CV] logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial, score=0.837, total=   1.4s
+[CV] logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial, score=0.845, total=   1.4s
+[CV] logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr, score=0.826, total=   2.8s
+[CV] logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial, score=0.845, total=   1.4s
+[CV] logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr, score=0.835, total=   2.5s
+[CV] logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial, score=0.852, total=   1.4s
+[CV] logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial, score=0.711, total=   0.3s
+[CV] logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr 
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[CV]  logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr, score=0.827, total=   2.5s
+[CV] logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial, score=0.840, total=   1.5s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=ovr ..
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=ovr, score=0.832, total=   2.5s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=multinomial, score=0.852, total=   1.5s
+[CV] logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr, score=0.828, total=   2.6s
+[CV] logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial, score=0.851, total=   1.5s
+[CV] logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr, score=0.830, total=   2.7s
+[CV] logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial, score=0.846, total=   1.4s
+[CV] logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial, score=0.844, total=   1.4s
+[CV] logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr, score=0.832, total=   2.5s
+[CV] logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial, score=0.845, total=   1.4s
+[CV] logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial, score=0.844, total=   1.4s
+[CV] logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr, score=0.835, total=   2.6s
+[CV] logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial, score=0.846, total=   1.4s
+[CV] logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr, score=0.831, total=   2.5s
+[CV] logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial 
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[CV]  logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial, score=0.851, total=   1.6s
+[CV] logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial, score=0.712, total=   0.3s
+[CV] logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr, score=0.823, total=   2.6s
+[CV] logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial, score=0.840, total=   1.5s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=ovr ..
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=ovr, score=0.836, total=   2.6s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr, score=0.825, total=   2.6s
+[CV] logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6324662714072469, logisticregression__multi_class=ovr, score=0.835, total=   2.7s
+[CV] logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239216371592847, logisticregression__multi_class=multinomial, score=0.851, total=   1.4s
+[CV] logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2388446261389166, logisticregression__multi_class=multinomial, score=0.842, total=   1.4s
+[CV] logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8112901291368331, logisticregression__multi_class=ovr, score=0.835, total=   2.5s
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[CV] logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08705534026553921, logisticregression__multi_class=multinomial, score=0.840, total=   1.4s
+[CV] logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5402339455364641, logisticregression__multi_class=multinomial, score=0.846, total=   1.4s
+[CV] logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7000221209676214, logisticregression__multi_class=ovr, score=0.830, total=   2.5s
+[CV] logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6989962589454403, logisticregression__multi_class=multinomial, score=0.844, total=   1.4s
+[CV] logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4543730556453141, logisticregression__multi_class=ovr, score=0.829, total=   2.5s
+[CV] logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.34084268143907315, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999888639810988, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999798451504578, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999148823135872, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00018781589589411847, logisticregression__multi_class=multinomial, score=0.705, total=   0.3s
+[CV] logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.14889798647870678, logisticregression__multi_class=ovr, score=0.825, total=   2.6s
+[CV] logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9132743005014937, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.14511659464387783, logisticregression__multi_class=multinomial, score=0.843, total=   1.5s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=ovr ..
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=ovr, score=0.830, total=   2.6s
+[CV] logisticregression__C=1.0, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.0, logisticregression__multi_class=multinomial, score=0.844, total=   1.5s
+[CV] logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.29768142750509347, logisticregression__multi_class=ovr, score=0.834, total=   2.6s
+[CV] logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.765038715740904, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+[CV] logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.8519672000220783, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4140255928024914, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial 
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[CV]  logisticregression__C=0.4835372548674866, logisticregression__multi_class=multinomial, score=0.845, total=   1.5s
+[CV] logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9556205319347756, logisticregression__multi_class=multinomial, score=0.846, total=   1.5s
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)

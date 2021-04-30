@@ -12,7 +12,7 @@ import math
 import sys
 from collections import Counter
 
-from lib.SeqIterator.SeqIterator import SeqReader
+from SeqIterator import SeqReader
 
 # String of all of the quality characters.
 QUAL_STR = '!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~'

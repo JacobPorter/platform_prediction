@@ -1,0 +1,552 @@
+srun: job 16097545 queued and waiting for resources
+srun: job 16097545 has been allocated resources
+Namespace(estimator='SupportVectorClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/SupportVectorClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Namespace(estimator='SupportVectorClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/SupportVectorClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    4.1s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.4s remaining:    4.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.6s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.6s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.9s remaining:    3.9s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.0s remaining:    4.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.3s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.3s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.9s remaining:    3.9s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.7s remaining:    3.7s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.7s remaining:    3.7s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.0s remaining:    4.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.0s remaining:    4.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.3s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.3s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.1s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.7s remaining:    3.7s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    3.9s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    3.9s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.0s remaining:    4.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.9s remaining:    3.9s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.9s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    4.0s remaining:    4.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.7s remaining:    3.7s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.7s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.8s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.9s remaining:    3.9s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.1379s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.2s remaining:    0.2s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.2s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.7s remaining:    3.7s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    3.6s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    3.8s remaining:    3.8s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    4.0s finished
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+The best score: 0.8454090909090909
+The best parameters: OrderedDict([('supportvectorclassifier__C', 0.9999689312629232)])
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+The process took time: 0:01:48.665859
+[CV] supportvectorclassifier__C=0.13791804472827332 ..................
+[CV]  supportvectorclassifier__C=0.13791804472827332, score=0.830, total=   3.7s
+[CV] supportvectorclassifier__C=0.5523914521478307 ...................
+[CV]  supportvectorclassifier__C=0.5523914521478307, score=0.839, total=   4.2s
+[CV] supportvectorclassifier__C=0.4342826348428755 ...................
+[CV]  supportvectorclassifier__C=0.4342826348428755, score=0.838, total=   4.1s
+[CV] supportvectorclassifier__C=0.39744164336169974 ..................
+[CV]  supportvectorclassifier__C=0.39744164336169974, score=0.836, total=   4.0s
+[CV] supportvectorclassifier__C=0.34754787756474476 ..................
+[CV]  supportvectorclassifier__C=0.34754787756474476, score=0.838, total=   4.0s
+[CV] supportvectorclassifier__C=0.5026002231051799 ...................
+[CV]  supportvectorclassifier__C=0.5026002231051799, score=0.838, total=   3.7s
+[CV] supportvectorclassifier__C=0.8555127958196446 ...................
+[CV]  supportvectorclassifier__C=0.8555127958196446, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.5914106050394514 ...................
+[CV]  supportvectorclassifier__C=0.5914106050394514, score=0.839, total=   4.2s
+[CV] supportvectorclassifier__C=0.7578538839884978 ...................
+[CV]  supportvectorclassifier__C=0.7578538839884978, score=0.839, total=   4.0s
+[CV] supportvectorclassifier__C=0.2351774772454806 ...................
+[CV]  supportvectorclassifier__C=0.2351774772454806, score=0.835, total=   3.8s
+[CV] supportvectorclassifier__C=1.0 ..................................
+[CV] ...... supportvectorclassifier__C=1.0, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999829829390732 ...................
+[CV]  supportvectorclassifier__C=0.9999829829390732, score=0.841, total=   3.8s
+[CV] supportvectorclassifier__C=0.9998941985567086 ...................
+[CV]  supportvectorclassifier__C=0.9998941985567086, score=0.843, total=   4.2s
+[CV] supportvectorclassifier__C=0.9999689312629232 ...................
+[CV]  supportvectorclassifier__C=0.9999689312629232, score=0.841, total=   3.6s
+[CV] supportvectorclassifier__C=0.9997188434249424 ...................
+[CV]  supportvectorclassifier__C=0.9997188434249424, score=0.854, total=   3.7s
+[CV] supportvectorclassifier__C=0.9999801221147311 ...................
+[CV]  supportvectorclassifier__C=0.9999801221147311, score=0.853, total=   3.8s
+[CV] supportvectorclassifier__C=0.9999378200382646 ...................
+[CV]  supportvectorclassifier__C=0.9999378200382646, score=0.854, total=   3.7s
+[CV] supportvectorclassifier__C=0.9999274626534763 ...................
+[CV]  supportvectorclassifier__C=0.9999274626534763, score=0.854, total=   3.7s
+[CV] supportvectorclassifier__C=0.9999593928261963 ...................
+[CV]  supportvectorclassifier__C=0.9999593928261963, score=0.854, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999768952713155 ...................
+[CV]  supportvectorclassifier__C=0.9999768952713155, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.9997784794073965 ...................
+[CV]  supportvectorclassifier__C=0.9997784794073965, score=0.840, total=   3.8s
+[CV] supportvectorclassifier__C=1.0592670296817066e-05 ...............
+[CV]  supportvectorclassifier__C=1.0592670296817066e-05, score=0.635, total=   0.1s
+[CV] supportvectorclassifier__C=0.9345694163046551 ...................
+[CV]  supportvectorclassifier__C=0.9345694163046551, score=0.853, total=   3.6s
+[CV] supportvectorclassifier__C=0.6771912633839158 ...................
+[CV]  supportvectorclassifier__C=0.6771912633839158, score=0.850, total=   3.6s
+[CV] supportvectorclassifier__C=0.8089010903575733 ...................
+[CV]  supportvectorclassifier__C=0.8089010903575733, score=0.852, total=   3.6s
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+[CV] supportvectorclassifier__C=0.13791804472827332 ..................
+[CV]  supportvectorclassifier__C=0.13791804472827332, score=0.835, total=   3.2s
+[CV] supportvectorclassifier__C=0.5523914521478307 ...................
+[CV]  supportvectorclassifier__C=0.5523914521478307, score=0.848, total=   3.8s
+[CV] supportvectorclassifier__C=0.4342826348428755 ...................
+[CV]  supportvectorclassifier__C=0.4342826348428755, score=0.847, total=   3.7s
+[CV] supportvectorclassifier__C=0.39744164336169974 ..................
+[CV]  supportvectorclassifier__C=0.39744164336169974, score=0.846, total=   3.7s
+[CV] supportvectorclassifier__C=0.34754787756474476 ..................
+[CV]  supportvectorclassifier__C=0.34754787756474476, score=0.845, total=   3.7s
+[CV] supportvectorclassifier__C=0.5026002231051799 ...................
+[CV]  supportvectorclassifier__C=0.5026002231051799, score=0.848, total=   3.7s
+[CV] supportvectorclassifier__C=0.8555127958196446 ...................
+[CV]  supportvectorclassifier__C=0.8555127958196446, score=0.852, total=   3.6s
+[CV] supportvectorclassifier__C=0.5914106050394514 ...................
+[CV]  supportvectorclassifier__C=0.5914106050394514, score=0.849, total=   3.6s
+[CV] supportvectorclassifier__C=0.7578538839884978 ...................
+[CV]  supportvectorclassifier__C=0.7578538839884978, score=0.851, total=   3.8s
+[CV] supportvectorclassifier__C=0.2351774772454806 ...................
+[CV]  supportvectorclassifier__C=0.2351774772454806, score=0.840, total=   3.1s
+[CV] supportvectorclassifier__C=1.0 ..................................
+[CV] ...... supportvectorclassifier__C=1.0, score=0.854, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999829829390732 ...................
+[CV]  supportvectorclassifier__C=0.9999829829390732, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9998941985567086 ...................
+[CV]  supportvectorclassifier__C=0.9998941985567086, score=0.841, total=   3.9s
+[CV] supportvectorclassifier__C=0.9999689312629232 ...................
+[CV]  supportvectorclassifier__C=0.9999689312629232, score=0.854, total=   3.7s
+[CV] supportvectorclassifier__C=0.9997188434249424 ...................
+[CV]  supportvectorclassifier__C=0.9997188434249424, score=0.844, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999801221147311 ...................
+[CV]  supportvectorclassifier__C=0.9999801221147311, score=0.841, total=   3.8s
+[CV] supportvectorclassifier__C=0.9999378200382646 ...................
+[CV]  supportvectorclassifier__C=0.9999378200382646, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999274626534763 ...................
+[CV]  supportvectorclassifier__C=0.9999274626534763, score=0.840, total=   3.7s
+[CV] supportvectorclassifier__C=0.9999593928261963 ...................
+[CV]  supportvectorclassifier__C=0.9999593928261963, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.9999768952713155 ...................
+[CV]  supportvectorclassifier__C=0.9999768952713155, score=0.844, total=   3.9s
+[CV] supportvectorclassifier__C=0.9997784794073965 ...................
+[CV]  supportvectorclassifier__C=0.9997784794073965, score=0.843, total=   3.8s
+[CV] supportvectorclassifier__C=1.0592670296817066e-05 ...............
+[CV]  supportvectorclassifier__C=1.0592670296817066e-05, score=0.637, total=   0.2s
+[CV] supportvectorclassifier__C=0.9345694163046551 ...................
+[CV]  supportvectorclassifier__C=0.9345694163046551, score=0.840, total=   3.7s
+[CV] supportvectorclassifier__C=0.6771912633839158 ...................
+[CV]  supportvectorclassifier__C=0.6771912633839158, score=0.842, total=   3.9s
+[CV] supportvectorclassifier__C=0.8089010903575733 ...................
+[CV]  supportvectorclassifier__C=0.8089010903575733, score=0.839, total=   3.8s
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+[CV] supportvectorclassifier__C=0.13791804472827332 ..................
+[CV]  supportvectorclassifier__C=0.13791804472827332, score=0.832, total=   3.7s
+[CV] supportvectorclassifier__C=0.5523914521478307 ...................
+[CV]  supportvectorclassifier__C=0.5523914521478307, score=0.837, total=   3.8s
+[CV] supportvectorclassifier__C=0.4342826348428755 ...................
+[CV]  supportvectorclassifier__C=0.4342826348428755, score=0.839, total=   4.1s
+[CV] supportvectorclassifier__C=0.39744164336169974 ..................
+[CV]  supportvectorclassifier__C=0.39744164336169974, score=0.837, total=   4.3s
+[CV] supportvectorclassifier__C=0.34754787756474476 ..................
+[CV]  supportvectorclassifier__C=0.34754787756474476, score=0.836, total=   3.9s
+[CV] supportvectorclassifier__C=0.5026002231051799 ...................
+[CV]  supportvectorclassifier__C=0.5026002231051799, score=0.840, total=   4.0s
+[CV] supportvectorclassifier__C=0.8555127958196446 ...................
+[CV]  supportvectorclassifier__C=0.8555127958196446, score=0.840, total=   3.7s
+[CV] supportvectorclassifier__C=0.5914106050394514 ...................
+[CV]  supportvectorclassifier__C=0.5914106050394514, score=0.841, total=   4.1s
+[CV] supportvectorclassifier__C=0.7578538839884978 ...................
+[CV]  supportvectorclassifier__C=0.7578538839884978, score=0.841, total=   4.3s
+[CV] supportvectorclassifier__C=0.2351774772454806 ...................
+[CV]  supportvectorclassifier__C=0.2351774772454806, score=0.834, total=   3.8s
+[CV] supportvectorclassifier__C=1.0 ..................................
+[CV] ...... supportvectorclassifier__C=1.0, score=0.841, total=   3.9s
+[CV] supportvectorclassifier__C=0.9999829829390732 ...................
+[CV]  supportvectorclassifier__C=0.9999829829390732, score=0.854, total=   3.6s
+[CV] supportvectorclassifier__C=0.9998941985567086 ...................
+[CV]  supportvectorclassifier__C=0.9998941985567086, score=0.853, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999689312629232 ...................
+[CV]  supportvectorclassifier__C=0.9999689312629232, score=0.844, total=   3.9s
+[CV] supportvectorclassifier__C=0.9997188434249424 ...................
+[CV]  supportvectorclassifier__C=0.9997188434249424, score=0.841, total=   3.8s
+[CV] supportvectorclassifier__C=0.9999801221147311 ...................
+[CV]  supportvectorclassifier__C=0.9999801221147311, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999378200382646 ...................
+[CV]  supportvectorclassifier__C=0.9999378200382646, score=0.841, total=   3.8s
+[CV] supportvectorclassifier__C=0.9999274626534763 ...................
+[CV]  supportvectorclassifier__C=0.9999274626534763, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999593928261963 ...................
+[CV]  supportvectorclassifier__C=0.9999593928261963, score=0.841, total=   3.8s
+[CV] supportvectorclassifier__C=0.9999768952713155 ...................
+[CV]  supportvectorclassifier__C=0.9999768952713155, score=0.854, total=   3.6s
+[CV] supportvectorclassifier__C=0.9997784794073965 ...................
+[CV]  supportvectorclassifier__C=0.9997784794073965, score=0.854, total=   3.6s
+[CV] supportvectorclassifier__C=1.0592670296817066e-05 ...............
+[CV]  supportvectorclassifier__C=1.0592670296817066e-05, score=0.638, total=   0.2s
+[CV] supportvectorclassifier__C=0.9345694163046551 ...................
+[CV]  supportvectorclassifier__C=0.9345694163046551, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.6771912633839158 ...................
+[CV]  supportvectorclassifier__C=0.6771912633839158, score=0.841, total=   3.9s
+[CV] supportvectorclassifier__C=0.8089010903575733 ...................
+[CV]  supportvectorclassifier__C=0.8089010903575733, score=0.843, total=   4.0s
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+[CV] supportvectorclassifier__C=0.13791804472827332 ..................
+[CV]  supportvectorclassifier__C=0.13791804472827332, score=0.830, total=   3.5s
+[CV] supportvectorclassifier__C=0.5523914521478307 ...................
+[CV]  supportvectorclassifier__C=0.5523914521478307, score=0.840, total=   4.2s
+[CV] supportvectorclassifier__C=0.4342826348428755 ...................
+[CV]  supportvectorclassifier__C=0.4342826348428755, score=0.837, total=   3.9s
+[CV] supportvectorclassifier__C=0.39744164336169974 ..................
+[CV]  supportvectorclassifier__C=0.39744164336169974, score=0.839, total=   4.2s
+[CV] supportvectorclassifier__C=0.34754787756474476 ..................
+[CV]  supportvectorclassifier__C=0.34754787756474476, score=0.837, total=   4.0s
+[CV] supportvectorclassifier__C=0.5026002231051799 ...................
+[CV]  supportvectorclassifier__C=0.5026002231051799, score=0.839, total=   3.9s
+[CV] supportvectorclassifier__C=0.8555127958196446 ...................
+[CV]  supportvectorclassifier__C=0.8555127958196446, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.5914106050394514 ...................
+[CV]  supportvectorclassifier__C=0.5914106050394514, score=0.838, total=   4.0s
+[CV] supportvectorclassifier__C=0.7578538839884978 ...................
+[CV]  supportvectorclassifier__C=0.7578538839884978, score=0.842, total=   4.3s
+[CV] supportvectorclassifier__C=0.2351774772454806 ...................
+[CV]  supportvectorclassifier__C=0.2351774772454806, score=0.832, total=   3.7s
+[CV] supportvectorclassifier__C=1.0 ..................................
+[CV] ...... supportvectorclassifier__C=1.0, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999829829390732 ...................
+[CV]  supportvectorclassifier__C=0.9999829829390732, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.9998941985567086 ...................
+[CV]  supportvectorclassifier__C=0.9998941985567086, score=0.843, total=   4.1s
+[CV] supportvectorclassifier__C=0.9999689312629232 ...................
+[CV]  supportvectorclassifier__C=0.9999689312629232, score=0.843, total=   3.8s
+[CV] supportvectorclassifier__C=0.9997188434249424 ...................
+[CV]  supportvectorclassifier__C=0.9997188434249424, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999801221147311 ...................
+[CV]  supportvectorclassifier__C=0.9999801221147311, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999378200382646 ...................
+[CV]  supportvectorclassifier__C=0.9999378200382646, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.9999274626534763 ...................
+[CV]  supportvectorclassifier__C=0.9999274626534763, score=0.843, total=   3.9s
+[CV] supportvectorclassifier__C=0.9999593928261963 ...................
+[CV]  supportvectorclassifier__C=0.9999593928261963, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.9999768952713155 ...................
+[CV]  supportvectorclassifier__C=0.9999768952713155, score=0.841, total=   3.7s
+[CV] supportvectorclassifier__C=0.9997784794073965 ...................
+[CV]  supportvectorclassifier__C=0.9997784794073965, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=1.0592670296817066e-05 ...............
+[CV]  supportvectorclassifier__C=1.0592670296817066e-05, score=0.636, total=   0.2s
+[CV] supportvectorclassifier__C=0.9345694163046551 ...................
+[CV]  supportvectorclassifier__C=0.9345694163046551, score=0.843, total=   4.0s
+[CV] supportvectorclassifier__C=0.6771912633839158 ...................
+[CV]  supportvectorclassifier__C=0.6771912633839158, score=0.839, total=   3.7s
+[CV] supportvectorclassifier__C=0.8089010903575733 ...................
+[CV]  supportvectorclassifier__C=0.8089010903575733, score=0.842, total=   4.0s
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+/home/jsp4cu/anaconda3/envs/estimator2/lib/python3.7/site-packages/sklearn/svm/base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)

@@ -1,0 +1,381 @@
+srun: job 16097544 queued and waiting for resources
+srun: job 16097544 has been allocated resources
+Namespace(estimator='RidgeClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/RidgeClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Namespace(estimator='RidgeClassifier', feature_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.features.reduced.txt', folds=4, iterations=25, mode='train', model_path='/scratch/jsp4cu/platform_prediction/models/reduced/RidgeClassifier/', processes=4, response_path='/scratch/jsp4cu/platform_prediction/data/train/train.shuf.labels.reduced.txt', verbose=10)
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    1.4s
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    1.4s remaining:    1.4s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    1.5s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0315s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0304s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0289s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0276s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0284s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0275s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0277s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0278s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.1s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0562s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.1s remaining:    0.1s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.1s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0316s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0323s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0321s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0327s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0317s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0318s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0317s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0323s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0338s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0321s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0320s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0325s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0322s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0337s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+[Parallel(n_jobs=4)]: Using backend LokyBackend with 4 concurrent workers.
+[Parallel(n_jobs=4)]: Done   1 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=4)]: Batch computation too fast (0.0323s.) Setting batch_size=2.
+[Parallel(n_jobs=4)]: Done   2 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=4)]: Done   4 out of   4 | elapsed:    0.0s finished
+The best score: 0.7335
+The best parameters: OrderedDict([('ridgeclassifier__alpha', 2.8107958876743246e-05)])
+The process took time: 0:00:07.345388
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+Fitting 4 folds for each of 1 candidates, totalling 4 fits
+[CV] ridgeclassifier__alpha=0.3958869432258487 .......................
+[CV]  ridgeclassifier__alpha=0.3958869432258487, score=0.728, total=   0.2s
+[CV] ridgeclassifier__alpha=0.22648180991742575 ......................
+[CV]  ridgeclassifier__alpha=0.22648180991742575, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.5717788602419297 .......................
+[CV]  ridgeclassifier__alpha=0.5717788602419297, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9898591050429738 .......................
+[CV]  ridgeclassifier__alpha=0.9898591050429738, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=0.1489131090252707 .......................
+[CV]  ridgeclassifier__alpha=0.1489131090252707, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.96302580919082 .........................
+[CV]  ridgeclassifier__alpha=0.96302580919082, score=0.727, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9399276533127155 .......................
+[CV]  ridgeclassifier__alpha=0.9399276533127155, score=0.727, total=   0.0s
+[CV] ridgeclassifier__alpha=0.6013165478443465 .......................
+[CV]  ridgeclassifier__alpha=0.6013165478443465, score=0.728, total=   0.0s
+[CV] ridgeclassifier__alpha=0.2711696911741427 .......................
+[CV]  ridgeclassifier__alpha=0.2711696911741427, score=0.728, total=   0.0s
+[CV] ridgeclassifier__alpha=0.4592000343668707 .......................
+[CV]  ridgeclassifier__alpha=0.4592000343668707, score=0.728, total=   0.0s
+[CV] ridgeclassifier__alpha=2.8107958876743246e-05 ...................
+[CV]  ridgeclassifier__alpha=2.8107958876743246e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.4035942453321593e-05 ...................
+[CV]  ridgeclassifier__alpha=1.4035942453321593e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00011447603331386354 ...................
+[CV]  ridgeclassifier__alpha=0.00011447603331386354, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.1659591630207412e-05 ...................
+[CV]  ridgeclassifier__alpha=1.1659591630207412e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.9356927954254525e-06 ...................
+[CV]  ridgeclassifier__alpha=1.9356927954254525e-06, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=4.099487937854863e-05 ....................
+[CV]  ridgeclassifier__alpha=4.099487937854863e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=4.892498980536606e-06 ....................
+[CV]  ridgeclassifier__alpha=4.892498980536606e-06, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00016669554631547576 ...................
+[CV]  ridgeclassifier__alpha=0.00016669554631547576, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=3.758353307134161e-05 ....................
+[CV]  ridgeclassifier__alpha=3.758353307134161e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.751450380883346e-05 ....................
+[CV]  ridgeclassifier__alpha=1.751450380883346e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.999841069852349 ........................
+[CV]  ridgeclassifier__alpha=0.999841069852349, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=5.610703432072793e-05 ....................
+[CV]  ridgeclassifier__alpha=5.610703432072793e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00025752986406599285 ...................
+[CV]  ridgeclassifier__alpha=0.00025752986406599285, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.0004791208934360212 ....................
+[CV]  ridgeclassifier__alpha=0.0004791208934360212, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00034440735043585966 ...................
+[CV]  ridgeclassifier__alpha=0.00034440735043585966, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.3958869432258487 .......................
+[CV]  ridgeclassifier__alpha=0.3958869432258487, score=0.724, total=   0.2s
+[CV] ridgeclassifier__alpha=0.22648180991742575 ......................
+[CV]  ridgeclassifier__alpha=0.22648180991742575, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.5717788602419297 .......................
+[CV]  ridgeclassifier__alpha=0.5717788602419297, score=0.728, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9898591050429738 .......................
+[CV]  ridgeclassifier__alpha=0.9898591050429738, score=0.727, total=   0.0s
+[CV] ridgeclassifier__alpha=0.1489131090252707 .......................
+[CV]  ridgeclassifier__alpha=0.1489131090252707, score=0.726, total=   0.0s
+[CV] ridgeclassifier__alpha=0.96302580919082 .........................
+[CV]  ridgeclassifier__alpha=0.96302580919082, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9399276533127155 .......................
+[CV]  ridgeclassifier__alpha=0.9399276533127155, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=0.6013165478443465 .......................
+[CV]  ridgeclassifier__alpha=0.6013165478443465, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=0.2711696911741427 .......................
+[CV]  ridgeclassifier__alpha=0.2711696911741427, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.4592000343668707 .......................
+[CV]  ridgeclassifier__alpha=0.4592000343668707, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=2.8107958876743246e-05 ...................
+[CV]  ridgeclassifier__alpha=2.8107958876743246e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=1.4035942453321593e-05 ...................
+[CV]  ridgeclassifier__alpha=1.4035942453321593e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00011447603331386354 ...................
+[CV]  ridgeclassifier__alpha=0.00011447603331386354, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.1659591630207412e-05 ...................
+[CV]  ridgeclassifier__alpha=1.1659591630207412e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.9356927954254525e-06 ...................
+[CV]  ridgeclassifier__alpha=1.9356927954254525e-06, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=4.099487937854863e-05 ....................
+[CV]  ridgeclassifier__alpha=4.099487937854863e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=4.892498980536606e-06 ....................
+[CV]  ridgeclassifier__alpha=4.892498980536606e-06, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00016669554631547576 ...................
+[CV]  ridgeclassifier__alpha=0.00016669554631547576, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=3.758353307134161e-05 ....................
+[CV]  ridgeclassifier__alpha=3.758353307134161e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=1.751450380883346e-05 ....................
+[CV]  ridgeclassifier__alpha=1.751450380883346e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.999841069852349 ........................
+[CV]  ridgeclassifier__alpha=0.999841069852349, score=0.727, total=   0.0s
+[CV] ridgeclassifier__alpha=5.610703432072793e-05 ....................
+[CV]  ridgeclassifier__alpha=5.610703432072793e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00025752986406599285 ...................
+[CV]  ridgeclassifier__alpha=0.00025752986406599285, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.0004791208934360212 ....................
+[CV]  ridgeclassifier__alpha=0.0004791208934360212, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00034440735043585966 ...................
+[CV]  ridgeclassifier__alpha=0.00034440735043585966, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.3958869432258487 .......................
+[CV]  ridgeclassifier__alpha=0.3958869432258487, score=0.718, total=   0.1s
+[CV] ridgeclassifier__alpha=0.22648180991742575 ......................
+[CV]  ridgeclassifier__alpha=0.22648180991742575, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.5717788602419297 .......................
+[CV]  ridgeclassifier__alpha=0.5717788602419297, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9898591050429738 .......................
+[CV]  ridgeclassifier__alpha=0.9898591050429738, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=0.1489131090252707 .......................
+[CV]  ridgeclassifier__alpha=0.1489131090252707, score=0.719, total=   0.0s
+[CV] ridgeclassifier__alpha=0.96302580919082 .........................
+[CV]  ridgeclassifier__alpha=0.96302580919082, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9399276533127155 .......................
+[CV]  ridgeclassifier__alpha=0.9399276533127155, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=0.6013165478443465 .......................
+[CV]  ridgeclassifier__alpha=0.6013165478443465, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=0.2711696911741427 .......................
+[CV]  ridgeclassifier__alpha=0.2711696911741427, score=0.718, total=   0.0s
+[CV] ridgeclassifier__alpha=0.4592000343668707 .......................
+[CV]  ridgeclassifier__alpha=0.4592000343668707, score=0.718, total=   0.0s
+[CV] ridgeclassifier__alpha=2.8107958876743246e-05 ...................
+[CV]  ridgeclassifier__alpha=2.8107958876743246e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=1.4035942453321593e-05 ...................
+[CV]  ridgeclassifier__alpha=1.4035942453321593e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00011447603331386354 ...................
+[CV]  ridgeclassifier__alpha=0.00011447603331386354, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=1.1659591630207412e-05 ...................
+[CV]  ridgeclassifier__alpha=1.1659591630207412e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=1.9356927954254525e-06 ...................
+[CV]  ridgeclassifier__alpha=1.9356927954254525e-06, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=4.099487937854863e-05 ....................
+[CV]  ridgeclassifier__alpha=4.099487937854863e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=4.892498980536606e-06 ....................
+[CV]  ridgeclassifier__alpha=4.892498980536606e-06, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00016669554631547576 ...................
+[CV]  ridgeclassifier__alpha=0.00016669554631547576, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=3.758353307134161e-05 ....................
+[CV]  ridgeclassifier__alpha=3.758353307134161e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=1.751450380883346e-05 ....................
+[CV]  ridgeclassifier__alpha=1.751450380883346e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.999841069852349 ........................
+[CV]  ridgeclassifier__alpha=0.999841069852349, score=0.724, total=   0.0s
+[CV] ridgeclassifier__alpha=5.610703432072793e-05 ....................
+[CV]  ridgeclassifier__alpha=5.610703432072793e-05, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00025752986406599285 ...................
+[CV]  ridgeclassifier__alpha=0.00025752986406599285, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.0004791208934360212 ....................
+[CV]  ridgeclassifier__alpha=0.0004791208934360212, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00034440735043585966 ...................
+[CV]  ridgeclassifier__alpha=0.00034440735043585966, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.3958869432258487 .......................
+[CV]  ridgeclassifier__alpha=0.3958869432258487, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.22648180991742575 ......................
+[CV]  ridgeclassifier__alpha=0.22648180991742575, score=0.718, total=   0.0s
+[CV] ridgeclassifier__alpha=0.5717788602419297 .......................
+[CV]  ridgeclassifier__alpha=0.5717788602419297, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9898591050429738 .......................
+[CV]  ridgeclassifier__alpha=0.9898591050429738, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=0.1489131090252707 .......................
+[CV]  ridgeclassifier__alpha=0.1489131090252707, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.96302580919082 .........................
+[CV]  ridgeclassifier__alpha=0.96302580919082, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=0.9399276533127155 .......................
+[CV]  ridgeclassifier__alpha=0.9399276533127155, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=0.6013165478443465 .......................
+[CV]  ridgeclassifier__alpha=0.6013165478443465, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=0.2711696911741427 .......................
+[CV]  ridgeclassifier__alpha=0.2711696911741427, score=0.725, total=   0.0s
+[CV] ridgeclassifier__alpha=0.4592000343668707 .......................
+[CV]  ridgeclassifier__alpha=0.4592000343668707, score=0.723, total=   0.0s
+[CV] ridgeclassifier__alpha=2.8107958876743246e-05 ...................
+[CV]  ridgeclassifier__alpha=2.8107958876743246e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.4035942453321593e-05 ...................
+[CV]  ridgeclassifier__alpha=1.4035942453321593e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00011447603331386354 ...................
+[CV]  ridgeclassifier__alpha=0.00011447603331386354, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=1.1659591630207412e-05 ...................
+[CV]  ridgeclassifier__alpha=1.1659591630207412e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=1.9356927954254525e-06 ...................
+[CV]  ridgeclassifier__alpha=1.9356927954254525e-06, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=4.099487937854863e-05 ....................
+[CV]  ridgeclassifier__alpha=4.099487937854863e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=4.892498980536606e-06 ....................
+[CV]  ridgeclassifier__alpha=4.892498980536606e-06, score=0.734, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00016669554631547576 ...................
+[CV]  ridgeclassifier__alpha=0.00016669554631547576, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=3.758353307134161e-05 ....................
+[CV]  ridgeclassifier__alpha=3.758353307134161e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=1.751450380883346e-05 ....................
+[CV]  ridgeclassifier__alpha=1.751450380883346e-05, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.999841069852349 ........................
+[CV]  ridgeclassifier__alpha=0.999841069852349, score=0.717, total=   0.0s
+[CV] ridgeclassifier__alpha=5.610703432072793e-05 ....................
+[CV]  ridgeclassifier__alpha=5.610703432072793e-05, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00025752986406599285 ...................
+[CV]  ridgeclassifier__alpha=0.00025752986406599285, score=0.729, total=   0.0s
+[CV] ridgeclassifier__alpha=0.0004791208934360212 ....................
+[CV]  ridgeclassifier__alpha=0.0004791208934360212, score=0.735, total=   0.0s
+[CV] ridgeclassifier__alpha=0.00034440735043585966 ...................
+[CV]  ridgeclassifier__alpha=0.00034440735043585966, score=0.729, total=   0.0s
