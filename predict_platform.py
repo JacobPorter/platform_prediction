@@ -7,13 +7,16 @@ Predicts the sequencing platform for a fastq file.
 """
 import argparse
 import datetime
+import os
 import sys
 
-from lib/platform_features import get_features
-from lib/simple_estimator import load_model, predict
 from numpy import asarray
+from platform_features import get_features
+from simple_estimator import load_model, predict
 
-MODEL_PATH = "./models/reduced/RandomForestClassifier/"
+MODEL_PATH = os.getenv("PLATFORM_MODEL")
+if not MODEL_PATH:
+    MODEL_PATH = "./models/reduced/RandomForestClassifier/"
 
 
 def predict_platform(fastq_input, positions=(1, 1000), model_path=MODEL_PATH):
