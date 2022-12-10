@@ -8,9 +8,8 @@ Extract features from the phred quality string.
 
 import argparse
 import datetime
-import math
+import os
 import sys
-from collections import Counter
 
 from platform_features import get_offset, nonnegative, transform_phred_to_prob
 from SeqIterator import SeqReader
@@ -75,7 +74,18 @@ def get_file_features(fastq_input, positions=(0, 1000), debug=False):
 def get_directory_features(
     directory, positions=(0, 1000), header=False, output=sys.stdout, debug=False
 ):
-    pass
+    if header:
+        print("\t".join(header) + "\t" + "Label", file=output)
+    count = 0
+    for filename in os.listdir(directory):
+        if filename.endswith(".fastq"):
+            features = get_file_features(
+                os.path.join(directory, filename), positions, debug
+            )
+            features.append(filename.split(".")[1])
+            print("\t".join(features), file=output)
+            count += 1
+    return count
 
 
 def main():
@@ -144,7 +154,7 @@ def main():
         debug=args.debug,
     )
     tock = datetime.datetime.now()
-    print("There were {} records processed.".format(count), file=sys.stderr)
+    print("There were {} files processed.".format(count), file=sys.stderr)
     print("The process took time: {}".format(tock - tick), file=sys.stderr)
 
 
