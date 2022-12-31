@@ -10,24 +10,29 @@ import argparse
 import datetime
 import os
 import sys
+from statistics import median, stdev
 
 from platform_features import get_offset, nonnegative, transform_phred_to_prob
+from scipy.stats import skew
 from SeqIterator import SeqReader
 
 HEADER = [
     "avg_length",
     "min_length",
     "max_length",
+    "median_length",
+    "stddev_length",
+    "skew_length",
     "avg_avg_phred",
     "avg_min_phred",
     "avg_max_phred",
 ]
 
 
-def get_file_features(fastq_input, positions=(0, 1000), debug=False):
+def get_file_features(fastq_input, positions=(0, 3000), debug=False):
     def get_qual_features(qual_ascii):
         seq_qual_prob = list(
-            map(lambda x: transform_phred_to_prob(x, offset=offset), qual_ascii)
+            map(lambda x: transform_phred_to_prob(x, offset=offset) * 100, qual_ascii)
         )
         return {
             "avg_avg_phred": sum(seq_qual_prob) / len(seq_qual_prob),
@@ -38,7 +43,7 @@ def get_file_features(fastq_input, positions=(0, 1000), debug=False):
     reader = SeqReader(fastq_input, file_type="fastq")
     position = 0
     x, y = positions[0], positions[1]
-    qual_array = dict(zip(HEADER[3:], [[]] * 3))
+    qual_array = {"avg_avg_phred": [], "avg_min_phred": [], "avg_max_phred": []}
     if x and y and y < x:
         x, y = y, x
     count = 0
@@ -57,33 +62,52 @@ def get_file_features(fastq_input, positions=(0, 1000), debug=False):
         if not offset:
             offset = get_offset(qual)
         qual_features = get_qual_features(qual)
-        for key, value in qual_features.items():
-            qual_array[key].append(value)
+        for key in qual_features:
+            qual_array[key].append(qual_features[key])
+        if debug:
+            print(qual_features, file=sys.stderr)
     qual_avgs = {key: sum(qual_array[key]) / len(qual_array[key]) for key in qual_array}
+    if debug:
+        print(qual_array, file=sys.stderr)
+        print(qual_avgs, file=sys.stderr)
     reader.close()
-    return (
+    return [
         sum(lengths) / len(lengths),
         min(lengths),
         max(lengths),
+        median(lengths),
+        stdev(lengths),
+        skew(lengths),
         qual_avgs["avg_avg_phred"],
         qual_avgs["avg_min_phred"],
         qual_avgs["avg_max_phred"],
-    )
+    ]
 
 
 def get_directory_features(
-    directory, positions=(0, 1000), header=False, output=sys.stdout, debug=False
+    directory,
+    positions=(0, 3000),
+    header=False,
+    output=sys.stdout,
+    debug=False,
+    srr=False,
 ):
     if header:
-        print("\t".join(header) + "\t" + "Label", file=output)
+        output.write("\t".join(HEADER) + "\t" + "label")
+    if srr and header:
+        output.write("\t" + "accession_number")
+    if header:
+        output.write("\n")
     count = 0
     for filename in os.listdir(directory):
         if filename.endswith(".fastq"):
             features = get_file_features(
                 os.path.join(directory, filename), positions, debug
             )
-            features.append(filename.split(".")[1])
-            print("\t".join(features), file=output)
+            labels = filename.split(".")
+            features.append(labels[1])
+            features.append(labels[0])
+            print("\t".join(map(str, features)), file=output)
             count += 1
     return count
 
@@ -116,7 +140,7 @@ def main():
         help=(
             "The range of reads to sample.  " 'To process the whole file, use "0 0".'
         ),
-        default=(1, 1000),
+        default=(1, 3000),
     )
     parser.add_argument(
         "--header",
@@ -138,6 +162,12 @@ def main():
         help=("Print more info to stderr."),
         default=False,
     )
+    parser.add_argument(
+        "--srr",
+        action="store_true",
+        help=("Add the SRA number as a column."),
+        default=False,
+    )
     args = parser.parse_args()
     print("Extracting features...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
@@ -152,6 +182,7 @@ def main():
         header=args.header,
         output=output,
         debug=args.debug,
+        srr=args.srr,
     )
     tock = datetime.datetime.now()
     print("There were {} files processed.".format(count), file=sys.stderr)
