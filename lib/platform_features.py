@@ -9,6 +9,7 @@ Extract features from the phred quality string.
 import argparse
 import datetime
 import math
+import os
 import sys
 from collections import Counter
 
@@ -91,7 +92,7 @@ def get_features(
     fastq_input,
     label=None,
     subportions=3,
-    positions=(0, 0),
+    positions=(1, 5000),
     header=False,
     reduced=True,
     output=sys.stdout,
@@ -228,14 +229,74 @@ def nonnegative(value):
     return my_value
 
 
+def process_files(
+    fastq_input,
+    label,
+    subportions,
+    positions=(1, 5000),
+    header=False,
+    reduced=True,
+    output=sys.stdout,
+    debug=False,
+):
+    isFile = os.path.isfile(fastq_input)
+    isDir = os.path.isdir(fastq_input)
+    if isFile:
+        if not label:
+            label = get_label(fastq_input)
+        return get_features(
+            fastq_input, label, subportions, positions, header, reduced, output, debug
+        )
+    if isDir:
+        count = []
+        for filepath in os.listdir(fastq_input):
+            if filepath.endswith(".fastq") or filepath.endswith(".fastq.gz"):
+                my_label = label
+                if not label:
+                    my_label = get_label(filepath)
+                count.append(
+                    get_features(
+                        filepath,
+                        my_label,
+                        subportions,
+                        positions,
+                        header,
+                        reduced,
+                        output,
+                        debug,
+                    )
+                )
+                if header:
+                    header = False
+        return count
+    print("The fastq_input was not a file and it was not a directory.", file=sys.stderr)
+    return -1
+
+
+def get_label(filepath):
+    filename = os.path.basename(filepath)
+    return filename.split(".")[1]
+
+
 def main():
+    global DEBUG
     """Parse the arguments."""
     tick = datetime.datetime.now()
     parser = argparse.ArgumentParser(
         formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__
     )
-    parser.add_argument("fastq_input", type=str, help=("An input fastq file."))
-    parser.add_argument("label", type=str, help=("The string to label the rows."))
+    parser.add_argument(
+        "fastq_input", type=str, help=("The input fastq file or directory.")
+    )
+    parser.add_argument(
+        "--label",
+        "-l",
+        type=str,
+        help=(
+            "The string to label the rows. If the None default is used, then it will assume that the label is the second field in the filename."
+        ),
+        default=None,
+    )
     parser.add_argument(
         "--subportions",
         "-s",
@@ -261,10 +322,10 @@ def main():
         default=False,
     )
     parser.add_argument(
-        "--reduced",
-        "-r",
+        "--complex",
+        "-c",
         action="store_true",
-        help=("Reduce the number of features."),
+        help=("Use more features. (Not recommended.)"),
         default=False,
     )
     parser.add_argument(
@@ -288,7 +349,7 @@ def main():
         output = sys.stdout
     else:
         output = open(args.output, "w")
-    count = get_features(
+    count = process_files(
         args.fastq_input,
         args.label,
         args.subportions,
