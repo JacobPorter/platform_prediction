@@ -81,7 +81,7 @@ def get_file_features(fastq_input, positions=(0, 3000), debug=False):
         qual_avgs["avg_avg_phred"],
         qual_avgs["avg_min_phred"],
         qual_avgs["avg_max_phred"],
-    ]
+    ], count
 
 
 def get_directory_features(
@@ -101,7 +101,7 @@ def get_directory_features(
     count = 0
     for filename in os.listdir(directory):
         if filename.endswith(".fastq"):
-            features = get_file_features(
+            features, _ = get_file_features(
                 os.path.join(directory, filename), positions, debug
             )
             labels = filename.split(".")
