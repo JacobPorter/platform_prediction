@@ -77,8 +77,8 @@ def perform_classification(
     """
     t_model, t_encoder, t_name = load_model(top_path)
     b_model, b_encoder, b_name = load_model(bottom_path)
-    file_count = 0
-    for fastq_file in fastq_input:
+    # A helper function that does the classification.
+    def perform_classification_helper(fastq_file):
         top_prediction = predict_top(
             fastq_file, t_model, t_name, t_encoder, top_positions
         )
@@ -90,12 +90,29 @@ def perform_classification(
                     fastq_file, b_model, b_name, b_encoder, bottom_positions
                 )
             )
-        file_count += 1
+
+    # Iterate through files and directories.
+    file_count = 0
+    for item in fastq_input:
+        isFile = os.path.isfile(item)
+        isDir = os.path.isdir(item)
+        if isFile:
+            fastq_file = item
+            perform_classification_helper(fastq_file)
+            file_count += 1
+        elif isDir:
+            for filename in os.listdir(item):
+                if filename.endswith(".fastq") or filename.endswith(".fastq.gz"):
+                    fastq_file = os.path.join(item, filename)
+                    perform_classification_helper(fastq_file)
+        else:
+            print("Did not recognize, skipping: " + item, file=sys.stderr)
     return file_count
 
 
 def my_printer(row: List) -> None:
-    print("\t".join(map(str, row)))
+    print("\t".join(map(str, row)), file=sys.stdout)
+    sys.stdout.flush()
 
 
 def predict_top(fastq_input, model, name, encoder, positions=(0, TOP_RANGE_DEF)):
@@ -219,7 +236,12 @@ def main():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__
     )
     parser.add_argument(
-        "fastq_input", type=str, nargs="+", help=("An input fastq file.")
+        "fastq_input",
+        type=str,
+        nargs="+",
+        help=(
+            "A list of input fastq files or a list of directories where there are fastq files."
+        ),
     )
     parser.add_argument(
         "--top_range",

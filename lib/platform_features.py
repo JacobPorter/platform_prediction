@@ -249,11 +249,14 @@ def process_files(
         )
     if isDir:
         count = []
-        for filepath in os.listdir(fastq_input):
-            if filepath.endswith(".fastq") or filepath.endswith(".fastq.gz"):
+        for filename in os.listdir(fastq_input):
+            if filename.endswith(".fastq") or filename.endswith(".fastq.gz"):
+                filepath = os.path.join(fastq_input, filename)
                 my_label = label
                 if not label:
                     my_label = get_label(filepath)
+                print("Processing: " + filepath, file=sys.stderr)
+                sys.stderr.flush()
                 count.append(
                     get_features(
                         filepath,
@@ -268,7 +271,7 @@ def process_files(
                 )
                 if header:
                     header = False
-        return count
+        return sum(count), count
     print("The fastq_input was not a file and it was not a directory.", file=sys.stderr)
     return -1
 
@@ -312,7 +315,7 @@ def main():
         help=(
             "The range of reads to sample.  " 'To process the whole file, use "0 0".'
         ),
-        default=(0, 0),
+        default=(1, 5000),
     )
     parser.add_argument(
         "--header",
@@ -355,7 +358,7 @@ def main():
         args.subportions,
         positions=args.range,
         header=args.header,
-        reduced=args.reduced,
+        reduced=not args.complex,
         output=output,
         debug=args.debug,
     )
