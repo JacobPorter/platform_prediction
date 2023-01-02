@@ -1,0 +1,744 @@
+srun: job 45862097 queued and waiting for resources
+srun: job 45862097 has been allocated resources
+Namespace(estimator='LogisticRegression', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/LogisticRegression/', processes=1, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   22.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   33.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   33.4s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.9s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   21.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   31.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   31.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.0s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   20.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   20.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.7s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.7s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   20.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    6.0s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   11.9s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   20.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.1s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:   10.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   20.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   30.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   11.7s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.4s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   11.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr, score=0.481, total=  10.8s
+[CV] logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr, score=0.485, total=  11.8s
+[CV] logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.4859748811428398, logisticregression__multi_class=ovr, score=0.483, total=  10.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr, score=0.480, total=  10.9s
+[CV] logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr, score=0.485, total=  10.7s
+[CV] logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9239163567696804, logisticregression__multi_class=ovr, score=0.483, total=  10.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr, score=0.480, total=  10.0s
+[CV] logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr, score=0.485, total=  10.1s
+[CV] logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.7249547241226544, logisticregression__multi_class=ovr, score=0.483, total=  10.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr, score=0.481, total=  10.2s
+[CV] logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr, score=0.486, total=  10.4s
+[CV] logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.2652600455636885, logisticregression__multi_class=ovr, score=0.484, total=  10.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr, score=0.481, total=  10.3s
+[CV] logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr, score=0.485, total=  10.2s
+[CV] logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.45022231113562905, logisticregression__multi_class=ovr, score=0.483, total=  10.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial, score=0.484, total=   6.0s
+[CV] logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial, score=0.488, total=   5.9s
+[CV] logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.08333941508207268, logisticregression__multi_class=multinomial, score=0.487, total=   6.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr, score=0.480, total=  10.1s
+[CV] logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr, score=0.485, total=  10.0s
+[CV] logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.6726472402397726, logisticregression__multi_class=ovr, score=0.483, total=  10.0s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr, score=0.480, total=  10.1s
+[CV] logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr, score=0.485, total=  10.1s
+[CV] logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.8882950114178002, logisticregression__multi_class=ovr, score=0.483, total=  10.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial, score=0.481, total=   5.8s
+[CV] logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial, score=0.485, total=   5.8s
+[CV] logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.4317150421396417, logisticregression__multi_class=multinomial, score=0.485, total=   5.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial, score=0.481, total=   5.8s
+[CV] logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial, score=0.485, total=   5.9s
+[CV] logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.6239144336506935, logisticregression__multi_class=multinomial, score=0.485, total=   5.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial, score=0.468, total=   0.8s
+[CV] logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial, score=0.471, total=   0.8s
+[CV] logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.00014727166812608615, logisticregression__multi_class=multinomial, score=0.471, total=   0.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial, score=0.480, total=   5.6s
+[CV] logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial, score=0.484, total=   5.5s
+[CV] logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999185895284244, logisticregression__multi_class=multinomial, score=0.485, total=   5.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial 
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   17.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   11.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   16.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   16.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.9s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   16.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   16.1s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    1.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    2.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.7s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.7s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    8.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   17.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.4s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    8.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   17.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.4s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.7s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    5.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   10.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+[CV]  logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial, score=0.480, total=   5.5s
+[CV] logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial, score=0.484, total=   5.4s
+[CV] logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.999949321123612, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr, score=0.468, total=   1.3s
+[CV] logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr, score=0.472, total=   1.3s
+[CV] logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.0001322415268295592, logisticregression__multi_class=ovr, score=0.472, total=   1.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial, score=0.480, total=   5.2s
+[CV] logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial, score=0.484, total=   5.2s
+[CV] logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.999971583114566, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr, score=0.480, total=   8.8s
+[CV] logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr, score=0.484, total=   8.9s
+[CV] logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9996560681167735, logisticregression__multi_class=ovr, score=0.483, total=   8.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial, score=0.481, total=   5.2s
+[CV] logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+[CV] logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5742995806304297, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial, score=0.480, total=   5.2s
+[CV] logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial, score=0.484, total=   5.2s
+[CV] logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999028560556062, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial, score=0.480, total=   5.2s
+[CV] logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial, score=0.484, total=   5.2s
+[CV] logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.9999861861395898, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial, score=0.481, total=   5.1s
+[CV] logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+[CV] logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5583000644333941, logisticregression__multi_class=multinomial, score=0.485, total=   5.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial, score=0.481, total=   5.2s
+[CV] logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial, score=0.485, total=   5.1s
+[CV] logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.5697191545807055, logisticregression__multi_class=multinomial, score=0.485, total=   5.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr, score=0.480, total=   8.8s
+[CV] logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr, score=0.484, total=   8.8s
+[CV] logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.9999783614796932, logisticregression__multi_class=ovr, score=0.483, total=   8.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial, score=0.467, total=   0.7s
+[CV] logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial, score=0.463, total=   0.6s
+[CV] logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=1.4655794758470735e-05, logisticregression__multi_class=multinomial, score=0.469, total=   0.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial, score=0.481, total=   5.2s
+[CV] logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial, score=0.485, total=   5.2s
+[CV] logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial 
+[CV]  logisticregression__C=0.2719386191121877, logisticregression__multi_class=multinomial, score=0.485, total=   5.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr 
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   15.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    8.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:   17.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:   26.5s finished
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/fixes.py:230: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if _joblib.__version__ >= LooseVersion('0.12'):
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/linear_model/sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+The best score: 0.4862
+The best parameters: OrderedDict([('logisticregression__C', 0.08333941508207268), ('logisticregression__multi_class', 'multinomial')])
+The process took time: 0:08:35.814897
+[CV]  logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr, score=0.481, total=   8.8s
+[CV] logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr, score=0.486, total=   8.8s
+[CV] logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr 
+[CV]  logisticregression__C=0.27826261416090486, logisticregression__multi_class=ovr, score=0.484, total=   8.9s

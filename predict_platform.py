@@ -24,12 +24,13 @@ from typing import List, Tuple
 
 from numpy import asarray, where
 from platform_features import get_features
+from platform_file_features import HEADER as FILE_HEAD
 from platform_file_features import get_file_features
 from simple_estimator import load_model, predict
 
 BOTTOM_PATH = os.getenv("BOTTOM_MODEL")
 if not BOTTOM_PATH:
-    BOTTOM_PATH = "./models/bottom/GradBoost/"
+    BOTTOM_PATH = "./models/bottom/mark_2/GradBoost/"
 
 TOP_PATH = os.getenv("TOP_MODEL")
 if not TOP_PATH:
@@ -79,17 +80,20 @@ def perform_classification(
     b_model, b_encoder, b_name = load_model(bottom_path)
     # A helper function that does the classification.
     def perform_classification_helper(fastq_file):
-        top_prediction = predict_top(
+        top_prediction, file_features = predict_top(
             fastq_file, t_model, t_name, t_encoder, top_positions
         )
+        top_count = top_prediction[-1]
+        top_prediction = top_prediction[:-2]
         if top_prediction[1] != "short_reads":
-            my_printer(top_prediction)
+            my_printer(top_prediction + [top_count, "NA"] + file_features)
         else:
-            my_printer(
-                predict_platform(
-                    fastq_file, b_model, b_name, b_encoder, bottom_positions
-                )
+            bot_prediction = predict_platform(
+                fastq_file, b_model, b_name, b_encoder, bottom_positions
             )
+            bot_count = bot_prediction[-1]
+            bot_prediction = bot_prediction[:-2]
+            my_printer(bot_prediction + [top_count, bot_count] + file_features)
 
     # Iterate through files and directories.
     file_count = 0
@@ -146,12 +150,12 @@ def predict_top(fastq_input, model, name, encoder, positions=(0, TOP_RANGE_DEF))
         The number of reads examined.
     """
     features, read_count = get_file_features(fastq_input, positions=positions)
-    features = asarray(features).reshape(1, -1)
-    responses, proba, order = predict(model, name, features, encoder)
+    features_arr = asarray(features).reshape(1, -1)
+    responses, proba, order = predict(model, name, features_arr, encoder)
     platform = responses[0]
     ind = where(order == platform)[0]
     prob_1 = proba[0, ind][0]
-    return fastq_input, platform, prob_1, "NA", "NA", read_count
+    return [fastq_input, platform, prob_1, "NA", "NA", read_count], features
 
 
 def predict_platform(
@@ -210,9 +214,9 @@ def predict_platform(
         prob_2 += item[1][order_p]
         stdev.append(item[1][order_p])
     prob_2 /= len(preds)
-    if platform.startswith("ion"):
-        platform = "ion_torrent_or_trimmed"
-    return fastq_input, platform, prob_1, prob_2, statistics.stdev(stdev), count
+    # if platform.startswith("ion"):
+    #     platform = "ion_torrent_or_trimmed"
+    return [fastq_input, platform, prob_1, prob_2, statistics.stdev(stdev), count]
 
 
 def nonnegative(value):
@@ -283,7 +287,20 @@ def main():
     print("Predicting platform...", file=sys.stderr)
     print("Started at: {}".format(tick), file=sys.stderr)
     print(args, file=sys.stderr)
-    print("\t".join(("File", "Platform", "Prob", "Alt_Prob", "Stdev_Prob", "Reads")))
+    print(
+        "\t".join(
+            [
+                "File",
+                "Platform",
+                "Prob",
+                "Alt_Prob",
+                "Stdev_Prob",
+                "Top_Count",
+                "Bottom_Count",
+            ]
+            + FILE_HEAD
+        )
+    )
     perform_classification(
         args.fastq_input,
         args.top_model,

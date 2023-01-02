@@ -1,0 +1,6 @@
+srun: job 45862104 queued and waiting for resources
+srun: job 45862104 has been allocated resources
+Predicting platform...
+Started at: 2023-01-01 19:19:08.054090
+Namespace(bottom_model='./models/bottom/GradBoost/', bottom_range=[1, 1000], fastq_input=['/project/biocomplexity/fungcat/jsporter/platform_prediction/data/test/new_test'], top_model='./models/top/GradBoost/', top_range=[1, 3000])
+Predict platform took time: 0:00:36.368735

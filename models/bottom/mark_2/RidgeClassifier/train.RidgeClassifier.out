@@ -1,0 +1,458 @@
+srun: job 45862098 queued and waiting for resources
+srun: job 45862098 has been allocated resources
+Namespace(estimator='RidgeClassifier', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/RidgeClassifier/', processes=1, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.6711139200948175 .......................
+[CV]  ridgeclassifier__alpha=0.6711139200948175, score=0.472, total=   0.2s
+[CV] ridgeclassifier__alpha=0.6711139200948175 .......................
+[CV]  ridgeclassifier__alpha=0.6711139200948175, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6711139200948175 .......................
+[CV]  ridgeclassifier__alpha=0.6711139200948175, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.5989525609306606 .......................
+[CV]  ridgeclassifier__alpha=0.5989525609306606, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.5989525609306606 .......................
+[CV]  ridgeclassifier__alpha=0.5989525609306606, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.5989525609306606 .......................
+[CV]  ridgeclassifier__alpha=0.5989525609306606, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9311285647062559 .......................
+[CV]  ridgeclassifier__alpha=0.9311285647062559, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9311285647062559 .......................
+[CV]  ridgeclassifier__alpha=0.9311285647062559, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9311285647062559 .......................
+[CV]  ridgeclassifier__alpha=0.9311285647062559, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.6878315610162006 .......................
+[CV]  ridgeclassifier__alpha=0.6878315610162006, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6878315610162006 .......................
+[CV]  ridgeclassifier__alpha=0.6878315610162006, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6878315610162006 .......................
+[CV]  ridgeclassifier__alpha=0.6878315610162006, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.6736212252386242 .......................
+[CV]  ridgeclassifier__alpha=0.6736212252386242, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6736212252386242 .......................
+[CV]  ridgeclassifier__alpha=0.6736212252386242, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6736212252386242 .......................
+[CV]  ridgeclassifier__alpha=0.6736212252386242, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.6007819479639669 .......................
+[CV]  ridgeclassifier__alpha=0.6007819479639669, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6007819479639669 .......................
+[CV]  ridgeclassifier__alpha=0.6007819479639669, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.6007819479639669 .......................
+[CV]  ridgeclassifier__alpha=0.6007819479639669, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.39874724019598634 ......................
+[CV]  ridgeclassifier__alpha=0.39874724019598634, score=0.471, total=   0.1s
+[CV] ridgeclassifier__alpha=0.39874724019598634 ......................
+[CV]  ridgeclassifier__alpha=0.39874724019598634, score=0.476, total=   0.1s
+[CV] ridgeclassifier__alpha=0.39874724019598634 ......................
+[CV]  ridgeclassifier__alpha=0.39874724019598634, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9886596180071304 .......................
+[CV]  ridgeclassifier__alpha=0.9886596180071304, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9886596180071304 .......................
+[CV]  ridgeclassifier__alpha=0.9886596180071304, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9886596180071304 .......................
+[CV]  ridgeclassifier__alpha=0.9886596180071304, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.7952019431377721 .......................
+[CV]  ridgeclassifier__alpha=0.7952019431377721, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.7952019431377721 .......................
+[CV]  ridgeclassifier__alpha=0.7952019431377721, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.7952019431377721 .......................
+[CV]  ridgeclassifier__alpha=0.7952019431377721, score=0.476, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.15826200112560349 ......................
+[CV]  ridgeclassifier__alpha=0.15826200112560349, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=0.15826200112560349 ......................
+[CV]  ridgeclassifier__alpha=0.15826200112560349, score=0.475, total=   0.1s
+[CV] ridgeclassifier__alpha=0.15826200112560349 ......................
+[CV]  ridgeclassifier__alpha=0.15826200112560349, score=0.475, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=6.232293424704727e-05 ....................
+[CV]  ridgeclassifier__alpha=6.232293424704727e-05, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=6.232293424704727e-05 ....................
+[CV]  ridgeclassifier__alpha=6.232293424704727e-05, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=6.232293424704727e-05 ....................
+[CV]  ridgeclassifier__alpha=6.232293424704727e-05, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.00012799353621141185 ...................
+[CV]  ridgeclassifier__alpha=0.00012799353621141185, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=0.00012799353621141185 ...................
+[CV]  ridgeclassifier__alpha=0.00012799353621141185, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=0.00012799353621141185 ...................
+[CV]  ridgeclassifier__alpha=0.00012799353621141185, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=3.821884607050315e-06 ....................
+[CV]  ridgeclassifier__alpha=3.821884607050315e-06, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=3.821884607050315e-06 ....................
+[CV]  ridgeclassifier__alpha=3.821884607050315e-06, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=3.821884607050315e-06 ....................
+[CV]  ridgeclassifier__alpha=3.821884607050315e-06, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.999979419330359 ........................
+[CV]  ridgeclassifier__alpha=0.999979419330359, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.999979419330359 ........................
+[CV]  ridgeclassifier__alpha=0.999979419330359, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.999979419330359 ........................
+[CV]  ridgeclassifier__alpha=0.999979419330359, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9999582444301467 .......................
+[CV]  ridgeclassifier__alpha=0.9999582444301467, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999582444301467 .......................
+[CV]  ridgeclassifier__alpha=0.9999582444301467, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999582444301467 .......................
+[CV]  ridgeclassifier__alpha=0.9999582444301467, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=2.2000698356339465e-05 ...................
+[CV]  ridgeclassifier__alpha=2.2000698356339465e-05, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=2.2000698356339465e-05 ...................
+[CV]  ridgeclassifier__alpha=2.2000698356339465e-05, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=2.2000698356339465e-05 ...................
+[CV]  ridgeclassifier__alpha=2.2000698356339465e-05, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9999349293155676 .......................
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+The best score: 0.47544761904761906
+The best parameters: OrderedDict([('ridgeclassifier__alpha', 0.999979419330359)])
+The process took time: 0:00:13.183668
+[CV]  ridgeclassifier__alpha=0.9999349293155676, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999349293155676 .......................
+[CV]  ridgeclassifier__alpha=0.9999349293155676, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999349293155676 .......................
+[CV]  ridgeclassifier__alpha=0.9999349293155676, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9999685262755312 .......................
+[CV]  ridgeclassifier__alpha=0.9999685262755312, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999685262755312 .......................
+[CV]  ridgeclassifier__alpha=0.9999685262755312, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999685262755312 .......................
+[CV]  ridgeclassifier__alpha=0.9999685262755312, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.00014149845065490325 ...................
+[CV]  ridgeclassifier__alpha=0.00014149845065490325, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=0.00014149845065490325 ...................
+[CV]  ridgeclassifier__alpha=0.00014149845065490325, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=0.00014149845065490325 ...................
+[CV]  ridgeclassifier__alpha=0.00014149845065490325, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9999762598329791 .......................
+[CV]  ridgeclassifier__alpha=0.9999762598329791, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999762598329791 .......................
+[CV]  ridgeclassifier__alpha=0.9999762598329791, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999762598329791 .......................
+[CV]  ridgeclassifier__alpha=0.9999762598329791, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9996864425879758 .......................
+[CV]  ridgeclassifier__alpha=0.9996864425879758, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9996864425879758 .......................
+[CV]  ridgeclassifier__alpha=0.9996864425879758, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9996864425879758 .......................
+[CV]  ridgeclassifier__alpha=0.9996864425879758, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=3.740944226879036e-05 ....................
+[CV]  ridgeclassifier__alpha=3.740944226879036e-05, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=3.740944226879036e-05 ....................
+[CV]  ridgeclassifier__alpha=3.740944226879036e-05, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=3.740944226879036e-05 ....................
+[CV]  ridgeclassifier__alpha=3.740944226879036e-05, score=0.474, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.999664657094557 ........................
+[CV]  ridgeclassifier__alpha=0.999664657094557, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.999664657094557 ........................
+[CV]  ridgeclassifier__alpha=0.999664657094557, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.999664657094557 ........................
+[CV]  ridgeclassifier__alpha=0.999664657094557, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=0.9999778223475971 .......................
+[CV]  ridgeclassifier__alpha=0.9999778223475971, score=0.472, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999778223475971 .......................
+[CV]  ridgeclassifier__alpha=0.9999778223475971, score=0.477, total=   0.1s
+[CV] ridgeclassifier__alpha=0.9999778223475971 .......................
+[CV]  ridgeclassifier__alpha=0.9999778223475971, score=0.477, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] ridgeclassifier__alpha=4.418140036634868e-06 ....................
+[CV]  ridgeclassifier__alpha=4.418140036634868e-06, score=0.470, total=   0.1s
+[CV] ridgeclassifier__alpha=4.418140036634868e-06 ....................
+[CV]  ridgeclassifier__alpha=4.418140036634868e-06, score=0.473, total=   0.1s
+[CV] ridgeclassifier__alpha=4.418140036634868e-06 ....................
+[CV]  ridgeclassifier__alpha=4.418140036634868e-06, score=0.474, total=   0.1s

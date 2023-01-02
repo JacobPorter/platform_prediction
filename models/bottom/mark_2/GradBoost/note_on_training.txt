@@ -1,0 +1,1 @@
+This model of gradient boosting was trained only on 8 iterations of bayesian optimization rather than the 25 iterations of the other models. This version had a slightly higher validation accuracy, so it was used.

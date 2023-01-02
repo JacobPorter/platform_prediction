@@ -1,0 +1,521 @@
+srun: job 45862133 queued and waiting for resources
+srun: job 45862133 has been allocated resources
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Namespace(estimator='GradBoost', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/GradBoostParallel/', processes=3, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Namespace(estimator='GradBoost', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/GradBoostParallel/', processes=3, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Namespace(estimator='GradBoost', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/GradBoostParallel/', processes=3, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101, score=0.825, total= 1.1min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150, score=0.826, total= 4.5min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50, score=0.768, total=  10.3s
+[CV] gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112, score=0.828, total= 1.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84, score=0.833, total= 6.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93, score=0.812, total= 6.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74, score=0.826, total= 2.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110, score=0.816, total= 4.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70, score=0.825, total= 1.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116, score=0.812, total=12.4min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.333, total=  17.2s
+[CV] gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50, score=0.333, total=   6.2s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.779, total=  42.4s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86, score=0.806, total= 1.6min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131, score=0.333, total=  15.8s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70, score=0.800, total= 1.1min
+[CV] gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104, score=0.832, total= 4.6min[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101, score=0.824, total= 1.1min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150, score=0.824, total= 4.5min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50, score=0.780, total=  10.4s
+[CV] gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112, score=0.830, total= 1.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84, score=0.831, total= 6.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93, score=0.811, total= 6.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74, score=0.828, total= 2.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110, score=0.815, total= 4.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70, score=0.828, total= 1.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116, score=0.811, total=12.5min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.415, total=  33.0s
+[CV] gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50, score=0.398, total=   6.7s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.777, total=  42.6s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86, score=0.809, total= 1.6min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131, score=0.333, total=  15.8s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70, score=0.805, total= 1.2min
+[CV] gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104, score=0.832, total= 4.7min[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.06716935507291583, gradboost__min_samples_leaf=4.373352040394478e-09, gradboost__min_samples_split=7.14644904250204e-08, gradboost__n_estimators=101, score=0.824, total= 1.1min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.699271055958134, gradboost__min_samples_leaf=0.06115170697854515, gradboost__min_samples_split=0.1207632382367513, gradboost__n_estimators=150, score=0.824, total= 4.6min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.03990875139506983, gradboost__min_samples_leaf=0.03294140940270286, gradboost__min_samples_split=0.00014698104773748133, gradboost__n_estimators=50, score=0.772, total=  10.4s
+[CV] gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=11, gradboost__max_features=0.10146040131282007, gradboost__min_samples_leaf=0.02733135654484793, gradboost__min_samples_split=2.843269451851155e-06, gradboost__n_estimators=112, score=0.827, total= 1.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9143132674682899, gradboost__min_samples_leaf=0.00039662099159976484, gradboost__min_samples_split=0.08689672579947096, gradboost__n_estimators=84, score=0.832, total= 7.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.31889251130019, gradboost__min_samples_leaf=0.0002237748468513135, gradboost__min_samples_split=3.287583965577668e-11, gradboost__n_estimators=93, score=0.811, total= 6.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.84344541533738, gradboost__min_samples_leaf=4.760388632915051e-12, gradboost__min_samples_split=0.004853309158923489, gradboost__n_estimators=74, score=0.826, total= 2.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=15, gradboost__max_features=0.24557782359752237, gradboost__min_samples_leaf=0.00018117894187835658, gradboost__min_samples_split=0.004125103984134852, gradboost__n_estimators=110, score=0.816, total= 4.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=17, gradboost__max_features=0.2463458608303766, gradboost__min_samples_leaf=0.03242650937989054, gradboost__min_samples_split=0.036332824577753296, gradboost__n_estimators=70, score=0.826, total= 1.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=10, gradboost__max_features=0.5327111247039877, gradboost__min_samples_leaf=1.378258701929937e-05, gradboost__min_samples_split=2.632393109700045e-10, gradboost__n_estimators=116, score=0.811, total=12.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.333, total=  17.3s
+[CV] gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=6, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.0, gradboost__n_estimators=50, score=0.333, total=   6.2s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.32467227310328434, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=150, score=0.786, total=  42.9s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=0.9987563625516421, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.0026753350183554934, gradboost__n_estimators=86, score=0.807, total= 1.6min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=2, gradboost__max_features=0.9604164032514428, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=1.4387853831492554e-11, gradboost__n_estimators=131, score=0.415, total=  29.3s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=10, gradboost__max_features=0.46834664455244807, gradboost__min_samples_leaf=0.0985496061169363, gradboost__min_samples_split=3.6321115976656894e-11, gradboost__n_estimators=70, score=0.800, total= 1.2min
+[CV] gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104 
+[CV] gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81, score=0.806, total=18.8min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75, score=0.806, total=53.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99, score=0.826, total=11.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70, score=0.826, total= 1.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124, score=0.818, total= 3.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80, score=0.805, total=80.5min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66, score=0.816, total= 1.4min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112, score=0.722, total=  31.2s
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59, score=0.826, total=  49.1s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64, score=0.794, total=  14.3s
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121, score=0.771, total=  21.5s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50, score=0.795, total=  44.7s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.415, total=  26.7s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133, score=0.399, total=  13.7s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108, score=0.369, total=  11.2s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.824, total= 2.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.808, total=25.2min[CV] gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81, score=0.808, total=18.8min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75, score=0.805, total=53.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99, score=0.824, total=11.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70, score=0.824, total= 1.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124, score=0.817, total= 3.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80, score=0.804, total=79.5min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66, score=0.818, total= 1.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112, score=0.717, total=  31.1s
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59, score=0.827, total=  48.9s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64, score=0.801, total=  14.3s
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121, score=0.776, total=  21.4s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50, score=0.797, total=  44.7s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.333, total=  14.2s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133, score=0.333, total=  12.6s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108, score=0.333, total=  10.4s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.824, total= 2.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.808, total=25.6min[CV] gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=20, gradboost__max_features=0.6172918399671155, gradboost__min_samples_leaf=1.0952324694575785e-06, gradboost__min_samples_split=0.0006625091602109874, gradboost__n_estimators=81, score=0.808, total=18.9min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.2491509324115828, gradboost__min_samples_leaf=1.4718747585060822e-09, gradboost__min_samples_split=7.606655858198228e-12, gradboost__n_estimators=75, score=0.805, total=54.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=19, gradboost__max_features=0.9198148569902047, gradboost__min_samples_leaf=0.0039088500921586845, gradboost__min_samples_split=6.395116630941071e-09, gradboost__n_estimators=99, score=0.827, total=11.3min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=8, gradboost__max_features=0.16886576517741633, gradboost__min_samples_leaf=7.318060950200462e-10, gradboost__min_samples_split=3.3939716534984215e-12, gradboost__n_estimators=70, score=0.825, total= 1.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=18, gradboost__max_features=0.19644444841107703, gradboost__min_samples_leaf=0.001830410035193065, gradboost__min_samples_split=2.040210498353101e-07, gradboost__n_estimators=124, score=0.817, total= 3.9min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=18, gradboost__max_features=0.7982939365176184, gradboost__min_samples_leaf=1.8338337717357094e-09, gradboost__min_samples_split=4.161881574923479e-11, gradboost__n_estimators=80, score=0.803, total=81.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=13, gradboost__max_features=0.07027880424379845, gradboost__min_samples_leaf=0.00016150903477868517, gradboost__min_samples_split=3.2380655588704314e-09, gradboost__n_estimators=66, score=0.817, total= 1.4min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=14, gradboost__max_features=0.5170084160704714, gradboost__min_samples_leaf=0.3833064753945045, gradboost__min_samples_split=0.00012793650940149073, gradboost__n_estimators=112, score=0.715, total=  31.2s
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.12491605420410405, gradboost__min_samples_leaf=4.7575503302848126e-08, gradboost__min_samples_split=2.4995082923830563e-12, gradboost__n_estimators=59, score=0.827, total=  48.8s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.08150720143449733, gradboost__min_samples_leaf=9.955387839816891e-09, gradboost__min_samples_split=2.672409205573641e-12, gradboost__n_estimators=64, score=0.801, total=  14.3s
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.13378739944317794, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=1.0, gradboost__n_estimators=121, score=0.776, total=  21.5s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=3.333070868636632e-09, gradboost__n_estimators=50, score=0.801, total=  44.5s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=1.0, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.333, total=  14.2s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=133, score=0.333, total=  12.6s
+[CV] gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=2, gradboost__max_features=2e-12, gradboost__min_samples_leaf=0.49999999999999994, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=108, score=0.333, total=  10.4s
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=3, gradboost__max_features=0.8350134452999461, gradboost__min_samples_leaf=4.087264564528549e-11, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.827, total= 2.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150 
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.1min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.1min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.6min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.6min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   10.5s remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   10.5s finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.0min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.0min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  7.0min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  7.0min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  6.5min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  6.5min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  2.5min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  2.5min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.9min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.9min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.3min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.3min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 12.5min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 12.5min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   33.1s remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   33.1s finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:    6.8s remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:    6.8s finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   42.9s remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   42.9s finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.6min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.6min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   29.4s remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:   29.4s finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.2min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.2min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.7min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.7min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 10.6min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 10.6min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.3min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.3min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.4min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  1.4min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 47.0min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 47.0min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.4min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed:  4.4min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 52.7min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 52.7min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 66.8min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 66.8min finished
+[Parallel(n_jobs=3)]: Using backend LokyBackend with 3 concurrent workers.
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 10.0min remaining:    0.0s
+[Parallel(n_jobs=3)]: Done   3 out of   3 | elapsed: 10.0min finished
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+The best score: 0.8322761904761905
+The best parameters: OrderedDict([('gradboost__criterion', 'friedman_mse'), ('gradboost__max_depth', 16), ('gradboost__max_features', 0.9240374433433317), ('gradboost__min_samples_leaf', 0.012186428689384458), ('gradboost__min_samples_split', 5.74888046757866e-06), ('gradboost__n_estimators', 58)])
+The process took time: 4:10:31.905187
+[CV]  gradboost__criterion=mse, gradboost__max_depth=13, gradboost__max_features=0.47493735867292475, gradboost__min_samples_leaf=0.007001467466641507, gradboost__min_samples_split=2.98804321442643e-08, gradboost__n_estimators=104, score=0.832, total= 4.7minFitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131, score=0.816, total=10.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143, score=0.816, total= 4.2min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96, score=0.825, total= 1.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114, score=0.805, total=47.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58, score=0.834, total= 4.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69, score=0.805, total=51.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61, score=0.806, total=64.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150, score=0.825, total= 9.9min
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131, score=0.818, total=10.5min
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143, score=0.815, total= 4.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96, score=0.830, total= 1.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114, score=0.807, total=47.0min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58, score=0.832, total= 4.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69, score=0.805, total=52.7min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61, score=0.804, total=66.8min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150, score=0.823, total= 9.9min
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=24, gradboost__max_features=0.471529171157171, gradboost__min_samples_leaf=0.002450241101076446, gradboost__min_samples_split=5.147830237728774e-08, gradboost__n_estimators=131, score=0.817, total=10.6min
+[CV] gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=8, gradboost__max_features=0.25140869256781306, gradboost__min_samples_leaf=6.706980358398181e-10, gradboost__min_samples_split=7.427511062281358e-09, gradboost__n_estimators=143, score=0.815, total= 4.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=4, gradboost__max_features=0.4086600485088159, gradboost__min_samples_leaf=4.485921107351184e-11, gradboost__min_samples_split=0.00036282409493093874, gradboost__n_estimators=96, score=0.824, total= 1.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=23, gradboost__max_features=0.7531815841352512, gradboost__min_samples_leaf=3.581053846704932e-08, gradboost__min_samples_split=0.0003160312443072612, gradboost__n_estimators=114, score=0.805, total=44.1min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=16, gradboost__max_features=0.9240374433433317, gradboost__min_samples_leaf=0.012186428689384458, gradboost__min_samples_split=5.74888046757866e-06, gradboost__n_estimators=58, score=0.831, total= 4.4min
+[CV] gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=22, gradboost__max_features=0.30396968057971396, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=2.1989328826604317e-08, gradboost__n_estimators=69, score=0.805, total=52.3min
+[CV] gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61 
+[CV]  gradboost__criterion=mse, gradboost__max_depth=21, gradboost__max_features=0.565672402357074, gradboost__min_samples_leaf=3.3321811184589373e-10, gradboost__min_samples_split=2.582013049991429e-06, gradboost__n_estimators=61, score=0.805, total=66.4min
+[CV] gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150 
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=9, gradboost__max_features=0.9507499618925258, gradboost__min_samples_leaf=2.0000000000000004e-12, gradboost__min_samples_split=0.004453581255733481, gradboost__n_estimators=150, score=0.824, total=10.0min
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+srun: First task exited 120s ago
+srun: StepId=45862133.0 tasks 0,2: running
+srun: StepId=45862133.0 task 1: exited
+srun: launch/slurm: _step_signal: Terminating StepId=45862133.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 45862133.0 ON udc-aj36-1c1 CANCELLED AT 2023-01-02T01:15:51 ***
+[CV]  gradboost__criterion=friedman_mse, gradboost__max_depth=12, gradboost__max_features=0.6345068451946718, gradboost__min_samples_leaf=2.1151975191409057e-06, gradboost__min_samples_split=2.0000000000000004e-12, gradboost__n_estimators=150, score=0.809, total=25.8minsrun: error: udc-aj36-1c1: tasks 0,2: Killed
+srun: launch/slurm: _step_signal: Terminating StepId=45862133.0

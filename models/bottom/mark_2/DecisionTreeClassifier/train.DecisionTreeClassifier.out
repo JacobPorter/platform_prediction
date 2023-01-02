@@ -1,0 +1,458 @@
+srun: job 45862096 queued and waiting for resources
+srun: job 45862096 has been allocated resources
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868, score=0.788, total=   0.5s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868, score=0.808, total=   0.5s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=0.7370113115467508, decisiontreeclassifier__min_samples_leaf=1.2009446920266215e-05, decisiontreeclassifier__min_samples_split=0.010326208743550868, score=0.796, total=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803, score=0.794, total=   0.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803, score=0.796, total=   0.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.5128893967507586, decisiontreeclassifier__min_samples_leaf=6.787984101238712e-08, decisiontreeclassifier__min_samples_split=0.03805006756164803, score=0.800, total=   0.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06, score=0.816, total=   1.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06, score=0.816, total=   1.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=11, decisiontreeclassifier__max_features=0.8034659863363686, decisiontreeclassifier__min_samples_leaf=0.00022256867084698002, decisiontreeclassifier__min_samples_split=5.865066468919347e-06, score=0.817, total=   1.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09, score=0.792, total=   0.7s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09, score=0.807, total=   0.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=8, decisiontreeclassifier__max_features=0.49040958025690257, decisiontreeclassifier__min_samples_leaf=1.3183855975380671e-05, decisiontreeclassifier__min_samples_split=1.155509293579842e-09, score=0.799, total=   0.6s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10, score=0.802, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10 
+Namespace(estimator='DecisionTreeClassifier', feature_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.features', folds=3, iterations=25, mode='train', model_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/models/bottom_level/mark_2/DecisionTreeClassifier/', processes=1, response_path='/project/biocomplexity/fungcat/jsporter/platform_prediction/data/train/3class.63_files.01012022.shuf.labels', verbose=10)
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.0s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.5s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    1.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    2.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.4s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.4s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.7s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.8s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.7s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.0s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    1.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    2.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10, score=0.799, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=12, decisiontreeclassifier__max_features=0.13218366348033467, decisiontreeclassifier__min_samples_leaf=0.00023970972847133195, decisiontreeclassifier__min_samples_split=1.2234092760193679e-10, score=0.804, total=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422, score=0.750, total=   0.7s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422, score=0.744, total=   0.7s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=16, decisiontreeclassifier__max_features=0.9178690593129396, decisiontreeclassifier__min_samples_leaf=0.03990709761333966, decisiontreeclassifier__min_samples_split=0.07977066025330422, score=0.752, total=   0.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10, score=0.798, total=   1.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10, score=0.796, total=   1.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=19, decisiontreeclassifier__max_features=0.6782382340090388, decisiontreeclassifier__min_samples_leaf=0.00013959891047610908, decisiontreeclassifier__min_samples_split=1.064794422698337e-10, score=0.797, total=   1.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554, score=0.783, total=   1.5s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554, score=0.786, total=   1.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=22, decisiontreeclassifier__max_features=0.7711309681371016, decisiontreeclassifier__min_samples_leaf=4.641151162791132e-12, decisiontreeclassifier__min_samples_split=0.00011839705333598554, score=0.780, total=   1.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647, score=0.806, total=   0.7s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647, score=0.809, total=   0.7s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.4282205779595783, decisiontreeclassifier__min_samples_leaf=0.00011895396603497612, decisiontreeclassifier__min_samples_split=0.0006521921039964647, score=0.796, total=   0.7s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07, score=0.803, total=   0.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07, score=0.812, total=   0.6s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=0.349837991707746, decisiontreeclassifier__min_samples_leaf=2.1459576333177222e-08, decisiontreeclassifier__min_samples_split=4.67541483869989e-07, score=0.809, total=   0.5s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.647, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.466, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.616, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.935380341792699e-10, score=0.333, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143, score=0.803, total=   1.4s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143, score=0.803, total=   1.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=0.00042962910531221143, score=0.802, total=   1.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=1.559337984552092e-07, score=0.399, total=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    1.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    3.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    4.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    4.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.7s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.1s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.1s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.7s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    1.7s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    1.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    2.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    3.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.420, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.488, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=14, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=2.0000000000000004e-12, decisiontreeclassifier__min_samples_split=1.0, score=0.431, total=   0.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.819, total=   0.9s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.820, total=   0.9s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=9, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.1490566104605374e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.815, total=   0.9s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11, score=0.778, total=   2.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11, score=0.781, total=   2.1s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=1.9715139662617595e-10, decisiontreeclassifier__min_samples_split=7.402697316377583e-11, score=0.779, total=   2.1s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0, score=0.488, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0, score=0.488, total=   0.3s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=9.800245316198101e-09, decisiontreeclassifier__min_samples_split=1.0, score=0.486, total=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05, score=0.333, total=   0.1s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=18, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=0.49999999999999994, decisiontreeclassifier__min_samples_split=2.8049282963814145e-05, score=0.399, total=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.2s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.9s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.7s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.7s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    2.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    4.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    6.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    6.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.8s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.8s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.1s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.3s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.6s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.9s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.9s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.764, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.766, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=24, decisiontreeclassifier__max_features=2e-12, decisiontreeclassifier__min_samples_leaf=5.166548124817513e-09, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.769, total=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673, score=0.687, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673, score=0.691, total=   0.3s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=3.894137529892615e-07, decisiontreeclassifier__min_samples_split=0.01005230435710673, score=0.686, total=   0.3s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995, score=0.795, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995, score=0.772, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=15, decisiontreeclassifier__max_features=0.07725811354645282, decisiontreeclassifier__min_samples_leaf=2.845812795508665e-07, decisiontreeclassifier__min_samples_split=0.00038007970585450995, score=0.783, total=   0.2s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.808, total=   0.8s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.813, total=   0.8s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=7, decisiontreeclassifier__max_features=1.0, decisiontreeclassifier__min_samples_leaf=2.4949493129549334e-10, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.804, total=   0.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.811, total=   0.9s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.808, total=   0.9s
+[CV] decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=gini, decisiontreeclassifier__max_depth=13, decisiontreeclassifier__max_features=0.7560801723475041, decisiontreeclassifier__min_samples_leaf=1.0903824458734446e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.808, total=   0.8s
+Fitting 3 folds for each of 1 candidates, totalling 3 fits
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.5s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.3s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.3s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.9s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    1.8s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.6s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    2.6s finished
+[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:    0.2s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   2 out of   2 | elapsed:    0.4s remaining:    0.0s
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.5s remaining:    0.0s
+[Parallel(n_jobs=1)]: Done   3 out of   3 | elapsed:    0.5s finished
+/home/jsp4cu/anaconda3/envs/platform/lib/python3.7/site-packages/sklearn/utils/validation.py:179: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(joblib_version) < '0.12':
+The best score: 0.8178190476190477
+The best parameters: OrderedDict([('decisiontreeclassifier__criterion', 'gini'), ('decisiontreeclassifier__max_depth', 9), ('decisiontreeclassifier__max_features', 1.0), ('decisiontreeclassifier__min_samples_leaf', 1.1490566104605374e-08), ('decisiontreeclassifier__min_samples_split', 2.0000000000000004e-12)])
+The process took time: 0:01:05.314412
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.653, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.691, total=   0.2s
+[CV] decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12 
+[CV]  decisiontreeclassifier__criterion=entropy, decisiontreeclassifier__max_depth=2, decisiontreeclassifier__max_features=0.26303615644862055, decisiontreeclassifier__min_samples_leaf=5.850861095144923e-08, decisiontreeclassifier__min_samples_split=2.0000000000000004e-12, score=0.662, total=   0.2s
